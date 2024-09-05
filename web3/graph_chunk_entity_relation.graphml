@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;BITCOIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Bitcoin is a decentralized electronic cash system designed to allow direct online payments between parties without the need for a financial institution."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SATOSHI NAKAMOTO&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Satoshi Nakamoto is the individual or group credited with the creation of Bitcoin and the original whitepaper."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;WWW.BITCOIN.ORG&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"www.bitcoin.org is a website associated with Bitcoin, providing information and resources about the cryptocurrency."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;WASHINGTON&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Washington is a location referenced in the text as a communication hub."&lt;SEP&gt;"Washington is a reference to the capital city of the United States, potentially indicating a government entity."&lt;SEP&gt;"Washington is mentioned in connection to communications with the team, influencing decision-making."&lt;SEP&gt;"Washington serves as a key location where communications are received, impacting decision-making processes."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;DIGITAL SIGNATURES&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Digital Signatures play a crucial role in the Bitcoin protocol, providing part of the solution to prevent double-spending."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DOUBLE-SPENDING PROBLEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Double-Spending Problem refers to the risk of spending the same cryptocurrency units more than once, which Bitcoin aims to solve."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;PEER-TO-PEER NETWORK&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Peer-to-Peer Network is utilized in Bitcoin to timestamp transactions and secure the blockchain against attacks."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PROOF-OF-WORK&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Proof-of-Work is a consensus algorithm used in Bitcoin to secure the network and validate transactions through computational puzzles."&lt;SEP&gt;"Proof-of-Work is a key mechanism used in blockchain technology to achieve distributed consensus through computational effort."&lt;SEP&gt;"Proof-of-Work is the mechanism used in Bitcoin mining to add new blocks to the blockchain and validate transactions by solving complex mathematical puzzles."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;ELECTRONIC CASH SYSTEM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"An Electronic Cash System is the concept that Bitcoin embodies, enabling peer-to-peer online payments without relying on traditional financial institutions."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;ABSTRACT&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Abstract provided in the text introduces the key components of Bitcoin, highlighting the importance of digital signatures and solving the double-spending problem."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;TRANSACTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Transaction is a key event in the blockchain network, representing the transfer of assets."&lt;SEP&gt;"Transactions are central to the operation of Bitcoin, involving the transfer of digital coins between parties and verification through digital signatures."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;TIMESTAMP SERVER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Timestamp Server is utilized in Bitcoin to create a chronological record of transactions, demonstrating the order of events and proof of existence at a given time."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;DIGITAL COIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Digital Coin in the context of Bitcoin is a chain of digital signatures that represent ownership and are transferred between parties securely."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;BLOCK&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Block is a fundamental component of the blockchain network, containing transactions and linked to previous blocks."&lt;SEP&gt;"Blocks are fundamental units in the Bitcoin blockchain, containing multiple transactions and forming the backbone of the distributed ledger system."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;CRYPTOGRAPHIC PROOF&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Cryptographic Proof is the basis of Bitcoin's security model, ensuring that transactions are valid and immutable through mathematical computations and digital signatures."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;DECENTRALIZED SYSTEM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A Decentralized System like Bitcoin operates without a central authority, relying on a distributed network of nodes to validate and secure transactions."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;TIMESTAMP&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Timestamps play a critical role in Bitcoin to establish the order of transactions on the blockchain and provide cryptographic proof of the data's existence at a specific time."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;CHAIN OF OWNERSHIP&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Chain of Ownership in Bitcoin refers to the sequence of digital signatures that verify the transfer of a digital coin between different owners."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;ADAM BACK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Adam Back is mentioned in connection to the proof-of-work system similar to Hashcash."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;SHA-256&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SHA-256 is mentioned as the hashing algorithm used in the proof-of-work process for the timestamp server."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;PEER-TO-PEER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Peer-to-peer is implied as the basis for the distributed timestamp server implementation."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;CPU&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"CPU is mentioned in the context of computational effort required for the proof-of-work process."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Nodes are described as entities running the network and participating in validation and consensus processes."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;HASHCASH&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Hashcash is a specific proof-of-work system referenced in the implementation of the timestamp server."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;CRUZ&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Cruz is a character who embodies a vision of control and order, influencing the dynamics among different characters."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;TAYLOR&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Taylor is a character depicted with authoritarian certainty and reverence towards a technology, undergoing a transformation in perspective."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;ALEX&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Alex is a character experiencing frustration and observing the interaction dynamics among Taylor, Jordan, and Cruz."&lt;SEP&gt;"Alex is a character in the text who demonstrates leadership and readiness for first contact."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;JORDAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Jordan is a character sharing a commitment to discovery and engaging in significant interactions with Taylor and Cruz."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;THE DEVICE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Device is a technological object revered in the text."&lt;SEP&gt;"The Device plays a central role in the story, symbolizing a potential game-changer and commanding reverence from Taylor."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;ORGANIZATION&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Organization refers to an entity involved in structured activities and decision-making processes within a specific context."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;MISSION&quot;">
+      <data key="d0">"MISSION"</data>
+      <data key="d1">"Mission signifies a set of objectives or goals that guide individuals or groups in their actions and endeavors."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;LOCATION&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Location denotes a specific place or region where events or activities take place, influencing the narrative."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;THE TEAM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The team represents a collective group of individuals transitioning from passive roles to active participants in a mission."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;OPERATION: DULCE&quot;">
+      <data key="d0">"MISSION"</data>
+      <data key="d1">"Operation: Dulce is portrayed as a mission evolving to interact and prepare, reflecting a significant shift in objectives."&lt;SEP&gt;"Operation: Dulce is referenced as a mission that has evolved in the text."&lt;SEP&gt;"Operation: Dulce transforms the team's mandate from observation to interaction and preparation, indicating a strategic shift in mission."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-a445e8e84576c92ded4494e656cde0aa&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;SAM RIVERA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Sam Rivera is a character in the text showing curiosity in communicating with unknown intelligence."&lt;SEP&gt;"Sam Rivera is portrayed as a team member with a mix of awe and anxiety, contributing to the team's communication efforts."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;CONTROL&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Control represents the ability to govern or manage situations, challenged by an intelligence that writes its own rules."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;INTELLIGENCE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Intelligence refers to an unknown entity capable of learning to communicate and writing its own rules."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;FIRST CONTACT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"First Contact symbolizes the potential initial communication between humanity and an unknown intelligence."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;HUMANITY'S RESPONSE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Humanity's Response highlights the collective actions taken in response to a message from an unknown intelligence."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Reclaiming Disk Space is a process described in the text to manage storage efficiently."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;MERKLE TREE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Merkle Tree is mentioned as a data structure used in hashing transactions in the text."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;COINS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Coins are referenced in the text as a unit of value within the cryptocurrency system."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;BLOCKS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Blocks are mentioned in the text as containers for transactions in the cryptocurrency system."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;COMPUTER SYSTEMS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Computer Systems are described with specific RAM capacities in the text for storing block headers."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;MOORE'S LAW&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Moore's Law is introduced as a prediction for the growth rate of computer system storage."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;PROOF-OF-WORK CHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Proof-of-Work Chain is referenced as the basis for verifying blockchain transactions in the text."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;NETWORK NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Network Nodes are mentioned as entities involved in verifying and validating transactions in the network."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;TRANSACTIONS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Transactions are described as the exchange of value within the cryptocurrency ecosystem."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;FULL BLOCK&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A Full Block refers to a complete block containing all transaction details in the blockchain."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;ATTACK&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Attack refers to an attempt by an attacker to change a transaction to take back money, indicating a malicious action."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;HONEST CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Honest Chain is characterized as extending by one block in a race with an attacker chain, showing a competitive dynamic."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;ATTACKER CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Attacker Chain competes with the Honest Chain, with events of extending or reducing the gap between them."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;GAMBLER'S RUIN PROBLEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Gambler's Ruin Problem is an analogy to an attacker catching up from a deficit, with probabilities calculated based on honest nodes' and attackers' block finding abilities."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;BINOMIAL RANDOM WALK&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Binomial Random Walk characterizes the race between the Honest Chain and an Attacker Chain in extending blocks, indicating a probabilistic competition."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;SUCCESS EVENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Success Event refers to the Honest Chain being extended by one block, increasing its lead, in the context of the competition with the Attacker Chain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;FAILURE EVENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Failure Event denotes the Attacker Chain being extended by one block, reducing the gap, in the context of the competition with the Honest Chain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Chain represents either the Honest Chain or the Attacker Chain in the race, with events of block extension impacting the outcome of the competition."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;MERCER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Mercer's decision-making instincts evolve as the team's objectives shift in Operation: Dulce, showing adaptability in a critical scenario."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;W. DAI&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"W. Dai is the author of b-money, a paper proposing electronic transactions without relying on trust."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;H. MASSIAS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"H. Massias is one of the authors of a paper on a secure timestamping service with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;S. HABER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"S. Haber is one of the authors of a paper on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;W.S. STORNETTA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"W.S. Stornetta is one of the authors of papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;D. BAYER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"D. Bayer is one of the authors of a paper on improving the efficiency and reliability of digital time-stamping."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;X.S. AVILA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"X.S. Avila is one of the authors of a paper on a secure timestamping service with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;J.-J. QUISQUATER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"J.-J. Quisquater is one of the authors of a paper on a secure timestamping service with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;A. BACK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A. Back is the author of Hashcash, a paper on a denial of service counter-measure."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;R.C. MERKLE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"R.C. Merkle is the author of a paper on protocols for public key cryptosystems."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;W. FELLER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"W. Feller is the author of 'An Introduction to Probability Theory and Its Applications'."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;IEEE COMPUTER SOCIETY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"IEEE Computer Society is an organization hosting a symposium on security and privacy."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;THE 4TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The 4th ACM Conference on Computer and Communications Security is an event where a paper on secure names for bit-strings was presented."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;TEAM&quot;">
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d1">"Washington influences decision-making processes of the team by communicating with them."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;INCENTIVE&quot;">
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d1">"The incentive within block creation encourages nodes to support the network and participate in the validation process."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;NETWORK&quot;">
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d1">"The incentive within block creation encourages nodes to support the network and participate in the validation process."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ORGANIZATION: OPERATION: DULCE&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"The Device is a central technological object in Operation: Dulce, the evolving mission."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SIMPLIFIED PAYMENT VERIFICATION&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Simplified Payment Verification relies on queries to Washington for verifying transactions."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Transactions contain intricated patterns thanks to the Merkle Tree."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PRIVACY&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Privacy and Operation: Dulce are related through the theme of maintaining confidentiality in respective missions."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CALCULATIONS&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Washington is mentioned in the context of the probability calculations."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;B-MONEY&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"W. Dai authored b-money, proposing a trustless system for electronic transactions."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"H. Massias co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;DIGITAL TIMESTAMP&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"S. Haber authored papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EFFICIENT TIME-STAMPING&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"D. Bayer co-authored a paper on improving the efficiency and reliability of digital time-stamping."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PUBLIC KEY CRYPTOSYSTEMS&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"R.C. Merkle authored a paper on protocols for public key cryptosystems."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;AN INTRODUCTION TO PROBABILITY THEORY AND ITS APPLICATIONS&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"W. Feller authored a book introducing probability theory."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;DIGITAL SIGNATURES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Bitcoin uses digital signatures as a security measure against the Double-Spending Problem."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;PEER-TO-PEER NETWORK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Bitcoin utilizes a Peer-to-Peer Network to timestamp transactions and secure the blockchain."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;SATOSHI NAKAMOTO&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Satoshi Nakamoto is associated with the creation and development of Bitcoin as described in the whitepaper."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;PROOF-OF-WORK&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Bitcoin employs Proof-of-Work as a consensus mechanism to validate transactions and secure the network."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;TEAM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Washington influences decision-making processes of the team by communicating with them."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Washington facilitates the process of managing disk space efficiently for storage."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;SIMPLIFIED PAYMENT VERIFICATION&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Simplified Payment Verification relies on queries to Washington for verifying transactions."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;CALCULATIONS&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Washington is mentioned in the context of the probability calculations."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;BLOCK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Proof-of-Work is utilized to validate new Blocks in the blockchain, requiring miners to solve complex puzzles to secure the network."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;SHA-256&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"SHA-256 is the hashing algorithm used to achieve the required zero bits in the proof-of-work."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;PEER-TO-PEER&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Peer-to-peer is the basis for implementing the distributed timestamp server's proof-of-work system."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;CPU&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"CPU effort is required to satisfy the proof-of-work for each block in the network."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;DIGITAL COIN&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Transactions involve the transfer of a Digital Coin, represented as a chain of digital signatures, to the next owner."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;TIMESTAMP SERVER&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Timestamp Server is used to create a timestamp for each Transaction, establishing a chronological record of events and proving the order of transactions."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;BLOCK&quot;">
+      <data key="d4">15.0</data>
+      <data key="d5">"Blocks contain multiple Transactions, chaining them together to form an immutable record in the Bitcoin blockchain."&lt;SEP&gt;"Blocks contain transactions that are validated and added to the blockchain network."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;NODES&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Nodes verify and accept transactions only if they are valid and not already spent in the network."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;BLOCK&quot;" target="&quot;NODES&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"Blocks are broadcast by nodes and accepted by other nodes in the network for validation and consensus."&lt;SEP&gt;"Nodes work collectively to add transactions into a block and validate it for acceptance in the network."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;ADAM BACK&quot;" target="&quot;HASHCASH&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Adam Back's work on Hashcash is mentioned in connection to the proof-of-work system for the timestamp server."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;HASHCASH&quot;" target="&quot;A. BACK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"A. Back is the author of Hashcash, a denial of service counter-measure."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;ALEX&quot;" target="&quot;FIRST CONTACT&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Alex is depicted as a leader preparing for first contact with unknown intelligence."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;THE DEVICE&quot;" target="&quot;ORGANIZATION: OPERATION: DULCE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Device is a central technological object in Operation: Dulce, the evolving mission."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;OPERATION: DULCE&quot;" target="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d4">15.0</data>
+      <data key="d5">"Operation: Dulce and Reclaiming Disk Space are co-related due to the context of evolving missions and efficient storage."&lt;SEP&gt;"Reclaiming Disk Space is linked to the evolving mission of Operation: Dulce."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;OPERATION: DULCE&quot;" target="&quot;PRIVACY&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Privacy and Operation: Dulce are related through the theme of maintaining confidentiality in respective missions."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;OPERATION: DULCE&quot;" target="&quot;MERCER&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Mercer's instincts align with the evolving objectives of Operation: Dulce, showcasing adaptability and commitment to the mission."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;SAM RIVERA&quot;" target="&quot;INTELLIGENCE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Sam Rivera expresses curiosity and involvement in learning to communicate with unknown intelligence."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;FIRST CONTACT&quot;" target="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"First Contact and Combining and Splitting Value are connected through the process of handling coins and transactions."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;RECLAIMING DISK SPACE&quot;" target="&quot;MERKLE TREE&quot;">
+      <data key="d4">19.0</data>
+      <data key="d5">"Merkle Tree is used in Reclaiming Disk Space to optimize storage."&lt;SEP&gt;"Reclaiming Disk Space involves hashing transactions in a Merkle Tree for efficient storage."&lt;SEP&gt;"The process of Reclaiming Disk Space involves using a Merkle Tree to optimize storage."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;MERKLE TREE&quot;" target="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Transactions contain intricated patterns thanks to the Merkle Tree."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;COINS&quot;" target="&quot;BLOCKS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Coins are utilized within blocks as units of value in the cryptocurrency system."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;BLOCKS&quot;" target="&quot;COMPUTER SYSTEMS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Blocks are stored in Computer Systems with specific RAM capacities."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;BLOCKS&quot;" target="&quot;TRANSACTIONS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Blocks serve as containers for storing transactions within the blockchain."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;COMPUTER SYSTEMS&quot;" target="&quot;MOORE'S LAW&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Computer Systems demonstrate growth as predicted by Moore's Law."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK CHAIN&quot;" target="&quot;NETWORK NODES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Proof-of-Work Chain is utilized by Network Nodes for transaction verification."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;NETWORK NODES&quot;" target="&quot;TRANSACTIONS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Transactions are verified and validated by Network Nodes in the network."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;TRANSACTIONS&quot;" target="&quot;FULL BLOCK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"A Full Block contains all transaction details for comprehensive blockchain records."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;HONEST CHAIN&quot;" target="&quot;ATTACKER CHAIN&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Honest Chain and Attacker Chain compete in a race characterized as a Binomial Random Walk."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;HONEST CHAIN&quot;" target="&quot;GAMBLER'S RUIN PROBLEM&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The probabilities in Gambler's Ruin Problem are analogous to those of an attacker catching up with the Honest Chain."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;BINOMIAL RANDOM WALK&quot;" target="&quot;CHAIN&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Binomial Random Walk characterizes the probabilistic competition between the Honest Chain and the Attacker Chain in block extension."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;W. DAI&quot;" target="&quot;B-MONEY&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"W. Dai authored b-money, proposing a trustless system for electronic transactions."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;H. MASSIAS&quot;" target="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"H. Massias co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;S. HABER&quot;" target="&quot;DIGITAL TIMESTAMP&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"S. Haber authored papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;W.S. STORNETTA&quot;" target="&quot;DIGITAL TIMESTAMP&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"W.S. Stornetta co-authored papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;D. BAYER&quot;" target="&quot;EFFICIENT TIME-STAMPING&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"D. Bayer co-authored a paper on improving the efficiency and reliability of digital time-stamping."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;X.S. AVILA&quot;" target="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"X.S. Avila co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;J.-J. QUISQUATER&quot;" target="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"J.-J. Quisquater co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;R.C. MERKLE&quot;" target="&quot;PUBLIC KEY CRYPTOSYSTEMS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"R.C. Merkle authored a paper on protocols for public key cryptosystems."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;W. FELLER&quot;" target="&quot;AN INTRODUCTION TO PROBABILITY THEORY AND ITS APPLICATIONS&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"W. Feller authored a book introducing probability theory."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;IEEE COMPUTER SOCIETY&quot;" target="&quot;THE 4TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"IEEE Computer Society hosts the conference where a paper on secure names for bit-strings was presented."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;INCENTIVE&quot;" target="&quot;NETWORK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The incentive within block creation encourages nodes to support the network and participate in the validation process."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+  </graph>
+</graphml>

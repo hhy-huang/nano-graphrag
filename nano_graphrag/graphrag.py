@@ -6,7 +6,7 @@ from functools import partial
 from typing import Type, cast
 
 
-from ._llm import gpt_4o_complete, gpt_4o_mini_complete, openai_embedding
+from ._llm import gpt_4o_complete, gpt_4o_mini_complete, openai_embedding, gpt_35_turbo_complete
 from ._op import (
     chunking_by_token_size,
     extract_entities,
@@ -94,7 +94,8 @@ class GraphRAG:
     embedding_func_max_async: int = 16
 
     # LLM
-    best_model_func: callable = gpt_4o_complete
+    # best_model_func: callable = gpt_4o_complete
+    best_model_func: callable = gpt_35_turbo_complete
     best_model_max_token_size: int = 32768
     best_model_max_async: int = 16
     cheap_model_func: callable = gpt_4o_mini_complete
