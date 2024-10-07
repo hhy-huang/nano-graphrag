@@ -108,7 +108,7 @@ class NanoVectorDBStorage(BaseVectorStorage):
 
     async def query(self, query: str, top_k=5):
         embedding = await self.embedding_func([query])
-        embedding = embedding[0]
+        embedding = embedding[0]                            # get the [CLS] embedding of query
         results = self._client.query(
             query=embedding,
             top_k=top_k,
@@ -373,7 +373,7 @@ class NetworkXStorage(BaseGraphStorage):
         await self._clustering_algorithms[algorithm]()
 
     async def community_schema(self) -> dict[str, SingleCommunitySchema]:
-        results = defaultdict(
+        results = defaultdict(                                          # for each cluster
             lambda: dict(
                 level=None,
                 title=None,
@@ -389,29 +389,29 @@ class NetworkXStorage(BaseGraphStorage):
         for node_id, node_data in self._graph.nodes(data=True):
             if "clusters" not in node_data:
                 continue
-            clusters = json.loads(node_data["clusters"])
-            this_node_edges = self._graph.edges(node_id)
+            clusters = json.loads(node_data["clusters"])            # corresponding clusters (with different level)
+            this_node_edges = self._graph.edges(node_id)            # edges related to this node
 
-            for cluster in clusters:
-                level = cluster["level"]
-                cluster_key = str(cluster["cluster"])
+            for cluster in clusters:                                # for each level of clusters of the current node
+                level = cluster["level"]                            # level
+                cluster_key = str(cluster["cluster"])               # cluster id
                 levels[level].add(cluster_key)
                 results[cluster_key]["level"] = level
                 results[cluster_key]["title"] = f"Cluster {cluster_key}"
                 results[cluster_key]["nodes"].add(node_id)
-                results[cluster_key]["edges"].update(
+                results[cluster_key]["edges"].update(               # the chunk id the node occurs
                     [tuple(sorted(e)) for e in this_node_edges]
                 )
                 results[cluster_key]["chunk_ids"].update(
                     node_data["source_id"].split(GRAPH_FIELD_SEP)
                 )
                 max_num_ids = max(max_num_ids, len(results[cluster_key]["chunk_ids"]))
-
-        ordered_levels = sorted(levels.keys())
+        # add sub-communities to each comminity
+        ordered_levels = sorted(levels.keys())                              # all levels
         for i, curr_level in enumerate(ordered_levels[:-1]):
             next_level = ordered_levels[i + 1]
-            this_level_comms = levels[curr_level]
-            next_level_comms = levels[next_level]
+            this_level_comms = levels[curr_level]                           # current level communities
+            next_level_comms = levels[next_level]                           # next level communities
             # compute the sub-communities by nodes intersection
             for comm in this_level_comms:
                 results[comm]["sub_communities"] = [
@@ -425,7 +425,7 @@ class NetworkXStorage(BaseGraphStorage):
             v["edges"] = [list(e) for e in v["edges"]]
             v["nodes"] = list(v["nodes"])
             v["chunk_ids"] = list(v["chunk_ids"])
-            v["occurrence"] = len(v["chunk_ids"]) / max_num_ids
+            v["occurrence"] = len(v["chunk_ids"]) / max_num_ids             # the occurence in all chunks
         return dict(results)
 
     def _cluster_data_to_subgraphs(self, cluster_data: dict[str, list[dict[str, str]]]):
@@ -435,16 +435,16 @@ class NetworkXStorage(BaseGraphStorage):
     async def _leiden_clustering(self):
         from graspologic.partition import hierarchical_leiden
 
-        graph = NetworkXStorage.stable_largest_connected_component(self._graph)
+        graph = NetworkXStorage.stable_largest_connected_component(self._graph)     # Return the largest connected component of the graph, with nodes and edges sorted in a stable way.
         community_mapping = hierarchical_leiden(
             graph,
-            max_cluster_size=self.global_config["max_graph_cluster_size"],
-            random_seed=self.global_config["graph_cluster_seed"],
+            max_cluster_size=self.global_config["max_graph_cluster_size"],          # 10
+            random_seed=self.global_config["graph_cluster_seed"],                   # 
         )
 
         node_communities: dict[str, list[dict[str, str]]] = defaultdict(list)
         __levels = defaultdict(set)
-        for partition in community_mapping:
+        for partition in community_mapping:                                         # why called that partition?
             level_key = partition.level
             cluster_id = partition.cluster
             node_communities[partition.node].append(

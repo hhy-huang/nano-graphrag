@@ -1,8 +1,11 @@
+import os
 from nano_graphrag import GraphRAG, QueryParam
+os.environ["OPENAI_API_KEY"] = "***"
+
 
 graph_func = GraphRAG(working_dir="./web3")
 
-with open("./web3/txtWhitePapers/bitcoin.pdf.txt") as f:
+with open("./web3/txtWhitePapers/ark.pdf.txt") as f:
     graph_func.insert(f.read())
 
 # Perform global graphrag search

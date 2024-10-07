@@ -34,19 +34,19 @@ from .prompt import GRAPH_FIELD_SEP, PROMPTS
 def chunking_by_token_size(
     content: str, overlap_token_size=128, max_token_size=1024, tiktoken_model="gpt-4o"
 ):
-    tokens = encode_string_by_tiktoken(content, model_name=tiktoken_model)
+    tokens = encode_string_by_tiktoken(content, model_name=tiktoken_model)  # tokenizer
     results = []
-    for index, start in enumerate(
-        range(0, len(tokens), max_token_size - overlap_token_size)
+    for index, start in enumerate(                                          # begin chunking
+        range(0, len(tokens), max_token_size - overlap_token_size)          # tolerance: overlap_token_size
     ):
-        chunk_content = decode_tokens_by_tiktoken(
+        chunk_content = decode_tokens_by_tiktoken(                          # decode from token id
             tokens[start : start + max_token_size], model_name=tiktoken_model
         )
-        results.append(
+        results.append(                                                     # add to chunking result
             {
-                "tokens": min(max_token_size, len(tokens) - start),
+                "tokens": min(max_token_size, len(tokens) - start),         # for the last one
                 "content": chunk_content.strip(),
-                "chunk_order_index": index,
+                "chunk_order_index": index,                                 # chunk index
             }
         )
     return results
@@ -104,7 +104,7 @@ async def _handle_single_relationship_extraction(
     record_attributes: list[str],
     chunk_key: str,
 ):
-    if record_attributes[0] != '"relationship"' or len(record_attributes) < 5:
+    if record_attributes[0] != '"relationship"' or len(record_attributes) < 5:      # according to the prompt
         return None
     # add this record as edge
     source = clean_str(record_attributes[1].upper())
@@ -134,7 +134,7 @@ async def _merge_nodes_then_upsert(
     already_description = []
 
     already_node = await knwoledge_graph_inst.get_node(entity_name)
-    if already_node is not None:
+    if already_node is not None:                                            # already exist
         already_entitiy_types.append(already_node["entity_type"])
         already_source_ids.extend(
             split_string_by_multi_markers(already_node["source_id"], [GRAPH_FIELD_SEP])
@@ -228,47 +228,47 @@ async def extract_entities(
     use_llm_func: callable = global_config["best_model_func"]
     entity_extract_max_gleaning = global_config["entity_extract_max_gleaning"]
 
-    ordered_chunks = list(chunks.items())
+    ordered_chunks = list(chunks.items())                       # chunks
 
-    entity_extract_prompt = PROMPTS["entity_extraction"]
+    entity_extract_prompt = PROMPTS["entity_extraction"]        # give 3 examples in the prompt context
     context_base = dict(
         tuple_delimiter=PROMPTS["DEFAULT_TUPLE_DELIMITER"],
         record_delimiter=PROMPTS["DEFAULT_RECORD_DELIMITER"],
         completion_delimiter=PROMPTS["DEFAULT_COMPLETION_DELIMITER"],
         entity_types=",".join(PROMPTS["DEFAULT_ENTITY_TYPES"]),
     )
-    continue_prompt = PROMPTS["entiti_continue_extraction"]
-    if_loop_prompt = PROMPTS["entiti_if_loop_extraction"]
+    continue_prompt = PROMPTS["entiti_continue_extraction"]     # means low quality in the last extraction
+    if_loop_prompt = PROMPTS["entiti_if_loop_extraction"]       # judge if there are still entities still need to be extracted
 
     already_processed = 0
     already_entities = 0
     already_relations = 0
 
-    async def _process_single_content(chunk_key_dp: tuple[str, TextChunkSchema]):
+    async def _process_single_content(chunk_key_dp: tuple[str, TextChunkSchema]):           # for each chunk, run the func
         nonlocal already_processed, already_entities, already_relations
         chunk_key = chunk_key_dp[0]
         chunk_dp = chunk_key_dp[1]
         content = chunk_dp["content"]
-        hint_prompt = entity_extract_prompt.format(**context_base, input_text=content)
-        final_result = await use_llm_func(hint_prompt)
+        hint_prompt = entity_extract_prompt.format(**context_base, input_text=content)      # fill in the parameter
+        final_result = await use_llm_func(hint_prompt)                                      # feed into LLM with the prompt
 
-        history = pack_user_ass_to_openai_messages(hint_prompt, final_result)
+        history = pack_user_ass_to_openai_messages(hint_prompt, final_result)               # set as history
         for now_glean_index in range(entity_extract_max_gleaning):
-            glean_result = await use_llm_func(continue_prompt, history_messages=history)
+            glean_result = await use_llm_func(continue_prompt, history_messages=history)    # history: 上一轮的question和response
 
-            history += pack_user_ass_to_openai_messages(continue_prompt, glean_result)
-            final_result += glean_result
+            history += pack_user_ass_to_openai_messages(continue_prompt, glean_result)      # add to history
+            final_result += glean_result                                                    # 字符串直接拼起来, 因为是entity集, 问题：重复entity？
             if now_glean_index == entity_extract_max_gleaning - 1:
                 break
 
-            if_loop_result: str = await use_llm_func(
+            if_loop_result: str = await use_llm_func(                                       # judge if we still need the next iteration
                 if_loop_prompt, history_messages=history
             )
             if_loop_result = if_loop_result.strip().strip('"').strip("'").lower()
             if if_loop_result != "yes":
                 break
 
-        records = split_string_by_multi_markers(
+        records = split_string_by_multi_markers(                                            # split entities from result --> list of entities
             final_result,
             [context_base["record_delimiter"], context_base["completion_delimiter"]],
         )
@@ -280,10 +280,10 @@ async def extract_entities(
             if record is None:
                 continue
             record = record.group(1)
-            record_attributes = split_string_by_multi_markers(
+            record_attributes = split_string_by_multi_markers(          # split entity
                 record, [context_base["tuple_delimiter"]]
             )
-            if_entities = await _handle_single_entity_extraction(
+            if_entities = await _handle_single_entity_extraction(       # get the name, type, desc, source_id of entity--> dict
                 record_attributes, chunk_key
             )
             if if_entities is not None:
@@ -297,10 +297,10 @@ async def extract_entities(
                 maybe_edges[(if_relation["src_id"], if_relation["tgt_id"])].append(
                     if_relation
                 )
-        already_processed += 1
+        already_processed += 1                                      # already processed chunks
         already_entities += len(maybe_nodes)
         already_relations += len(maybe_edges)
-        now_ticks = PROMPTS["process_tickers"][
+        now_ticks = PROMPTS["process_tickers"][                     # for visualization
             already_processed % len(PROMPTS["process_tickers"])
         ]
         print(
@@ -315,7 +315,7 @@ async def extract_entities(
         *[_process_single_content(c) for c in ordered_chunks]
     )
     print()  # clear the progress bar
-    maybe_nodes = defaultdict(list)
+    maybe_nodes = defaultdict(list)                     # for all chunks
     maybe_edges = defaultdict(list)
     for m_nodes, m_edges in results:
         for k, v in m_nodes.items():
@@ -323,13 +323,13 @@ async def extract_entities(
         for k, v in m_edges.items():
             # it's undirected graph
             maybe_edges[tuple(sorted(k))].extend(v)
-    all_entities_data = await asyncio.gather(
+    all_entities_data = await asyncio.gather(           # store the nodes
         *[
             _merge_nodes_then_upsert(k, v, knwoledge_graph_inst, global_config)
             for k, v in maybe_nodes.items()
         ]
     )
-    await asyncio.gather(
+    await asyncio.gather(                               # store the edges
         *[
             _merge_edges_then_upsert(k[0], k[1], v, knwoledge_graph_inst, global_config)
             for k, v in maybe_edges.items()
@@ -743,7 +743,7 @@ async def _build_local_query_context(
     text_chunks_db: BaseKVStorage[TextChunkSchema],
     query_param: QueryParam,
 ):
-    results = await entities_vdb.query(query, top_k=query_param.top_k)
+    results = await entities_vdb.query(query, top_k=query_param.top_k)          # find the top-k(20) related entities
     if not len(results):
         return None
     node_datas = await asyncio.gather(
@@ -862,7 +862,7 @@ async def local_query(
     return response
 
 
-async def _map_global_communities(
+async def _map_global_communities(                  # conduct global search (which is community search)
     query: str,
     communities_data: list[CommunitySchema],
     query_param: QueryParam,
@@ -891,7 +891,7 @@ async def _map_global_communities(
                     c["occurrence"],
                 ]
             )
-        community_context = list_of_list_to_csv(communities_section_list)
+        community_context = list_of_list_to_csv(communities_section_list)           # all communities
         sys_prompt_temp = PROMPTS["global_map_rag_points"]
         sys_prompt = sys_prompt_temp.format(context_data=community_context)
         response = await use_model_func(
@@ -924,7 +924,7 @@ async def global_query(
         return PROMPTS["fail_response"]
     use_model_func = global_config["best_model_func"]
 
-    sorted_community_schemas = sorted(
+    sorted_community_schemas = sorted(                              # sort according to the occurence of each item
         community_schema.items(),
         key=lambda x: x[1]["occurrence"],
         reverse=True,
@@ -948,7 +948,7 @@ async def global_query(
     )
     logger.info(f"Revtrieved {len(community_datas)} communities")
 
-    map_communities_points = await _map_global_communities(
+    map_communities_points = await _map_global_communities(             # do the global search
         query, community_datas, query_param, global_config
     )
     final_support_points = []

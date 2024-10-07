@@ -179,7 +179,7 @@ class GraphRAG:
         if param.mode == "local":
             response = await local_query(
                 query,
-                self.chunk_entity_relation_graph,
+                self.chunk_entity_relation_graph,           # graph storage
                 self.entities_vdb,
                 self.community_reports,
                 self.text_chunks,
@@ -189,10 +189,10 @@ class GraphRAG:
         elif param.mode == "global":
             response = await global_query(
                 query,
-                self.chunk_entity_relation_graph,
-                self.entities_vdb,
-                self.community_reports,
-                self.text_chunks,
+                self.chunk_entity_relation_graph,           # entity-relation graph
+                self.entities_vdb,                          # entity vector
+                self.community_reports,                     # community reports
+                self.text_chunks,                           # chunks
                 param,
                 asdict(self),
             )
@@ -206,11 +206,11 @@ class GraphRAG:
             if isinstance(string_or_strings, str):
                 string_or_strings = [string_or_strings]
             # ---------- new docs
-            new_docs = {
+            new_docs = {    # dict: {hash: ori_content}
                 compute_mdhash_id(c.strip(), prefix="doc-"): {"content": c.strip()}
                 for c in string_or_strings
             }
-            _add_doc_keys = await self.full_docs.filter_keys(list(new_docs.keys()))
+            _add_doc_keys = await self.full_docs.filter_keys(list(new_docs.keys()))     # filter the docs that has already in the storage.
             new_docs = {k: v for k, v in new_docs.items() if k in _add_doc_keys}
             if not len(new_docs):
                 logger.warning(f"All docs are already in the storage")
@@ -245,14 +245,14 @@ class GraphRAG:
             logger.info(f"[New Chunks] inserting {len(inserting_chunks)} chunks")
 
             # TODO: no incremental update for communities now, so just drop all
-            await self.community_reports.drop()
+            await self.community_reports.drop()                             # empty the data
 
             # ---------- extract/summary entity and upsert to graph
             logger.info("[Entity Extraction]...")
             maybe_new_kg = await extract_entities(
                 inserting_chunks,
-                knwoledge_graph_inst=self.chunk_entity_relation_graph,
-                entity_vdb=self.entities_vdb,
+                knwoledge_graph_inst=self.chunk_entity_relation_graph,      # graph storage
+                entity_vdb=self.entities_vdb,                               # vector db for entities
                 global_config=asdict(self),
             )
             if maybe_new_kg is None:
@@ -262,7 +262,7 @@ class GraphRAG:
             # ---------- update clusterings of graph
             logger.info("[Community Report]...")
             await self.chunk_entity_relation_graph.clustering(
-                self.graph_cluster_algorithm
+                self.graph_cluster_algorithm                    # use leiden
             )
             await generate_community_report(
                 self.community_reports, self.chunk_entity_relation_graph, asdict(self)
