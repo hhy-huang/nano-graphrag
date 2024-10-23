@@ -11,11 +11,24 @@
     <a href="https://pypi.org/project/nano-graphrag/">
       <img src="https://img.shields.io/pypi/v/nano-graphrag.svg">
     </a>
+    <a href="https://codecov.io/github/gusye1234/nano-graphrag" > 
+     <img src="https://codecov.io/github/gusye1234/nano-graphrag/graph/badge.svg?token=YFPMj9uQo7"/> 
+ 		</a>
     <a href="https://pepy.tech/project/nano-graphrag">
       <img src="https://static.pepy.tech/badge/nano-graphrag/month">
     </a>
   </p>
+  <p>
+  	<a href="https://discord.gg/sqCVzAhUY6">
+      <img src="https://dcbadge.limes.pink/api/server/sqCVzAhUY6?style=flat">
+    </a>
+    <a href="https://github.com/gusye1234/nano-graphrag/issues/8">
+       <img src="https://img.shields.io/badge/群聊-wechat-green">
+    </a>
+  </p>
 </div>
+
+
 
 
 
@@ -27,26 +40,26 @@
 
 😊 This project provides a **smaller, faster, cleaner GraphRAG**, while remaining the core functionality(see [benchmark](#benchmark) and [issues](#Issues) ).
 
-🎁 Excluding `tests` and prompts,  `nano-graphrag` is about **800 lines of code**.
+🎁 Excluding `tests` and prompts,  `nano-graphrag` is about **1100 lines of code**.
 
-👌 Small yet [**portable**](#Components), [**asynchronous**](#Async) and fully typed.
+👌 Small yet [**portable**](#Components)(faiss, neo4j, ollama...), [**asynchronous**](#Async) and fully typed.
 
 
 
 ## Install
 
-**Install from PyPi**
-
-```shell
-pip install nano-graphrag
-```
-
-**Install from source**
+**Install from source** (recommend)
 
 ```shell
 # clone this repo first
 cd nano-graphrag
 pip install -e .
+```
+
+**Install from PyPi**
+
+```shell
+pip install nano-graphrag
 ```
 
 
@@ -55,7 +68,12 @@ pip install -e .
 
 > [!TIP]
 >
->  **Please set OpenAI API key in environment: `export OPENAI_API_KEY="sk-..."`.** 
+> **Please set OpenAI API key in environment: `export OPENAI_API_KEY="sk-..."`.** 
+
+> [!TIP]
+> If you're using Azure OpenAI API, refer to the [.env.example](./.env.example.azure) to set your azure openai. Then pass `GraphRAG(...,using_azure_openai=True,...)` to enable.
+
+> [!TIP]
 >
 > If you don't have any key, check out this [example](./examples/no_openai_key_at_all.py) that using `transformers` and `ollama` . If you like to use another LLM or Embedding Model, check [Advances](#Advances).
 
@@ -84,6 +102,12 @@ print(graph_func.query("What are the top themes in this story?", param=QueryPara
 
 Next time you initialize a `GraphRAG` from the same `working_dir`, it will reload all the contexts automatically.
 
+#### Batch Insert
+
+```python
+graph_func.insert(["TEXT1", "TEXT2",...])
+```
+
 <details>
 <summary> Incremental Insert</summary>
 
@@ -103,6 +127,23 @@ with open("./book.txt") as f:
 
 </details>
 
+<details>
+<summary> Naive RAG</summary>
+
+`nano-graphrag` supports naive RAG insert and query as well:
+
+```python
+graph_func = GraphRAG(working_dir="./dickens", enable_naive_rag=True)
+...
+# Query
+print(rag.query(
+      "What are the top themes in this story?",
+      param=QueryParam(mode="naive")
+)
+```
+</details>
+
+
 ### Async
 
 For each method `NAME(...)` , there is a corresponding async method `aNAME(...)`
@@ -115,7 +156,7 @@ await graph_func.aquery(...)
 
 ### Available Parameters
 
-`GraphRAG` and `QueryParam` are `dataclass` in Python. Use `help(GraphRAG)` and `help(QueryParam)` to see all available parameters! 
+`GraphRAG` and `QueryParam` are `dataclass` in Python. Use `help(GraphRAG)` and `help(QueryParam)` to see all available parameters!  Or check out the [Advances](#Advances) section to see some options.
 
 
 
@@ -123,16 +164,22 @@ await graph_func.aquery(...)
 
 Below are the components you can use:
 
-| Type            |                             What                             |              Where               |
-| :-------------- | :----------------------------------------------------------: | :------------------------------: |
-| LLM             |                            OpenAI                            |             Built-in             |
-|                 |                           DeepSeek                           |      [examples](./examples)      |
-|                 |                           `ollama`                           |      [examples](./examples)      |
-| Embedding       |                            OpenAI                            |             Built-in             |
-|                 |                    Sentence-transformers                     |      [examples](./examples)      |
-| Vector DataBase | [`nano-vectordb`](https://github.com/gusye1234/nano-vectordb) |             Built-in             |
-|                 |        [`hnswlib`](https://github.com/nmslib/hnswlib)        | Built-in, [examples](./examples) |
-|                 |  [`milvus-lite`](https://github.com/milvus-io/milvus-lite)   |      [examples](./examples)      |
+| Type            |                             What                             |                       Where                       |
+| :-------------- | :----------------------------------------------------------: | :-----------------------------------------------: |
+| LLM             |                            OpenAI                            |                     Built-in                      |
+|                 |                           DeepSeek                           |              [examples](./examples)               |
+|                 |                           `ollama`                           |              [examples](./examples)               |
+| Embedding       |                            OpenAI                            |                     Built-in                      |
+|                 |                    Sentence-transformers                     |              [examples](./examples)               |
+| Vector DataBase | [`nano-vectordb`](https://github.com/gusye1234/nano-vectordb) |                     Built-in                      |
+|                 |        [`hnswlib`](https://github.com/nmslib/hnswlib)        |         Built-in, [examples](./examples)          |
+|                 |  [`milvus-lite`](https://github.com/milvus-io/milvus-lite)   |              [examples](./examples)               |
+|                 | [faiss](https://github.com/facebookresearch/faiss?tab=readme-ov-file) |              [examples](./examples)               |
+| Graph Storage   | [`networkx`](https://networkx.org/documentation/stable/index.html) |                     Built-in                      |
+|                 |                [`neo4j`](https://neo4j.com/)                 | Built-in([doc](./docs/use_neo4j_for_graphrag.md)) |
+| Visualization   |                           graphml                            |              [examples](./examples)               |
+| Chunking        |                        by token size                         |                     Built-in                      |
+|                 |                       by text splitter                       |                     Built-in                      |
 
 - `Built-in` means we have that implementation inside `nano-graphrag`. `examples` means we have that implementation inside an tutorial under [examples](./examples) folder.
 
@@ -140,6 +187,17 @@ Below are the components you can use:
 - **Always welcome to contribute more components.**
 
 ## Advances
+
+
+
+<details>
+<summary>Some setup options</summary>
+
+- `GraphRAG(...,always_create_working_dir=False,...)` will skip the dir-creating step. Use it if you switch all your components to non-file storages.
+
+</details>
+
+
 
 <details>
 <summary>Only query the related context</summary>
@@ -183,6 +241,24 @@ Some important prompts:
 - `PROMPTS["fail_response"]` is the fallback response when nothing is related to the user query.
 
 </details>
+
+<details>
+<summary>Customize Chunking</summary>
+
+
+`nano-graphrag` allow you to customize your own chunking method, check out the [example](./examples/using_custom_chunking_method.py).
+
+Switch to the built-in text splitter chunking method:
+
+```python
+from nano_graphrag._op import chunking_by_seperators
+
+GraphRAG(...,chunk_func=chunking_by_seperators,...)
+```
+
+</details>
+
+
 
 <details>
 <summary>LLM Function</summary>
@@ -282,6 +358,7 @@ You can replace all storage-related components to your own implementation, `nano
 **`base.BaseGraphStorage` for storing knowledge graph**
 
 - By default we use [`networkx`](https://github.com/networkx/networkx) as the backend.
+- We have a built-in `Neo4jStorage` for graph, check out this [tutorial](./docs/use_neo4j_for_graphrag.md).
 - `GraphRAG(.., graph_storage_cls=YOURS,...)`
 
 You can refer to `nano_graphrag.base` to see detailed interfaces for each components.
@@ -291,21 +368,37 @@ You can refer to `nano_graphrag.base` to see detailed interfaces for each compon
 
 ## FQA
 
-Check [FQA](./FAQ.md).
+Check [FQA](./docs/FAQ.md).
 
 
 
 ## Roadmap
 
-See [ROADMAP.md](./ROADMAP.md)
+See [ROADMAP.md](./docs/ROADMAP.md)
+
+
+
+## Contribute
+
+`nano-graphrag` is open to any kind of contribution. Read [this](./docs/CONTRIBUTING.md) before you contribute.
 
 
 
 
 ## Benchmark
 
-- [benchmark for English](./benchmark-en.md)
-- [benchmark for Chinese](./benchmark-zh.md)
+- [benchmark for English](./docs/benchmark-en.md)
+- [benchmark for Chinese](./docs/benchmark-zh.md)
+- [An evaluation](./examples/benchmarks/eval_naive_graphrag_on_multi_hop.ipynb) notebook on a [multi-hop RAG task](https://github.com/yixuantt/MultiHop-RAG)
+
+
+
+## Projects that used `nano-graphrag`
+
+- [Medical Graph RAG](https://github.com/MedicineToken/Medical-Graph-RAG): Graph RAG for the Medical Data
+- [LightRAG](https://github.com/HKUDS/LightRAG): Simple and Fast Retrieval-Augmented Generation
+
+> Welcome to pull requests if your project uses `nano-graphrag`, it will help others to trust this repo❤️
 
 
 

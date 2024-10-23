@@ -3,16 +3,27 @@ import os
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from functools import partial
-from typing import Type, cast
+from typing import Callable, Dict, List, Optional, Type, Union, cast
+
+import tiktoken
 
 
-from ._llm import gpt_4o_complete, gpt_4o_mini_complete, openai_embedding, gpt_35_turbo_complete
+from ._llm import (
+    gpt_4o_complete,
+    gpt_4o_mini_complete,
+    openai_embedding,
+    azure_gpt_4o_complete,
+    azure_openai_embedding,
+    azure_gpt_4o_mini_complete,
+), gpt_35_turbo_complete
 from ._op import (
     chunking_by_token_size,
     extract_entities,
     generate_community_report,
+    get_chunks,
     local_query,
     global_query,
+    naive_query,
 )
 from ._storage import (
     JsonKVStorage,
@@ -24,6 +35,7 @@ from ._utils import (
     compute_mdhash_id,
     limit_async_func_call,
     convert_response_to_json,
+    always_get_an_event_loop,
     logger,
 )
 from .base import (
@@ -35,18 +47,6 @@ from .base import (
 )
 
 
-def always_get_an_event_loop() -> asyncio.AbstractEventLoop:
-    try:
-        # If there is already an event loop, use it.
-        loop = asyncio.get_event_loop()
-    except RuntimeError:
-        # If in a sub-thread, create a new event loop.
-        logger.info("Creating a new event loop in a sub-thread.")
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-    return loop
-
-
 @dataclass
 class GraphRAG:
     working_dir: str = field(
@@ -54,8 +54,19 @@ class GraphRAG:
     )
     # graph mode
     enable_local: bool = True
+    enable_naive_rag: bool = False
 
     # text chunking
+    chunk_func: Callable[
+        [
+            list[list[int]],
+            List[str],
+            tiktoken.Encoding,
+            Optional[int],
+            Optional[int],
+        ],
+        List[Dict[str, Union[str, int]]],
+    ] = chunking_by_token_size
     chunk_token_size: int = 1200
     chunk_overlap_token_size: int = 100
     tiktoken_model_name: str = "gpt-4o"
@@ -92,8 +103,10 @@ class GraphRAG:
     embedding_func: EmbeddingFunc = field(default_factory=lambda: openai_embedding)
     embedding_batch_num: int = 32
     embedding_func_max_async: int = 16
+    query_better_than_threshold: float = 0.2
 
     # LLM
+    using_azure_openai: bool = False
     # best_model_func: callable = gpt_4o_complete
     best_model_func: callable = gpt_35_turbo_complete
     best_model_max_token_size: int = 32768
@@ -101,6 +114,9 @@ class GraphRAG:
     cheap_model_func: callable = gpt_4o_mini_complete
     cheap_model_max_token_size: int = 32768
     cheap_model_max_async: int = 16
+
+    # entity extraction
+    entity_extraction_func: callable = extract_entities
 
     # storage
     key_string_value_json_storage_cls: Type[BaseKVStorage] = JsonKVStorage
@@ -110,6 +126,7 @@ class GraphRAG:
     enable_llm_cache: bool = True
 
     # extension
+    always_create_working_dir: bool = True
     addon_params: dict = field(default_factory=dict)
     convert_response_to_json_func: callable = convert_response_to_json
 
@@ -117,7 +134,19 @@ class GraphRAG:
         _print_config = ",\n  ".join([f"{k} = {v}" for k, v in asdict(self).items()])
         logger.debug(f"GraphRAG init with param:\n\n  {_print_config}\n")
 
-        if not os.path.exists(self.working_dir):
+        if self.using_azure_openai:
+            # If there's no OpenAI API key, use Azure OpenAI
+            if self.best_model_func == gpt_4o_complete:
+                self.best_model_func = azure_gpt_4o_complete
+            if self.cheap_model_func == gpt_4o_mini_complete:
+                self.cheap_model_func = azure_gpt_4o_mini_complete
+            if self.embedding_func == openai_embedding:
+                self.embedding_func = azure_openai_embedding
+            logger.info(
+                "Switched the default openai funcs to Azure OpenAI if you didn't set any of it"
+            )
+
+        if not os.path.exists(self.working_dir) and self.always_create_working_dir:
             logger.info(f"Creating working directory {self.working_dir}")
             os.makedirs(self.working_dir)
 
@@ -152,9 +181,18 @@ class GraphRAG:
                 namespace="entities",
                 global_config=asdict(self),
                 embedding_func=self.embedding_func,
-                meta_fields={"entity_name"}
+                meta_fields={"entity_name"},
             )
             if self.enable_local
+            else None
+        )
+        self.chunks_vdb = (
+            self.vector_db_storage_cls(
+                namespace="chunks",
+                global_config=asdict(self),
+                embedding_func=self.embedding_func,
+            )
+            if self.enable_naive_rag
             else None
         )
 
@@ -176,6 +214,8 @@ class GraphRAG:
     async def aquery(self, query: str, param: QueryParam = QueryParam()):
         if param.mode == "local" and not self.enable_local:
             raise ValueError("enable_local is False, cannot query in local mode")
+        if param.mode == "naive" and not self.enable_naive_rag:
+            raise ValueError("enable_naive_rag is False, cannot query in naive mode")
         if param.mode == "local":
             response = await local_query(
                 query,
@@ -196,12 +236,29 @@ class GraphRAG:
                 param,
                 asdict(self),
             )
+        elif param.mode == "naive":
+            response = await naive_query(
+                query,
+                self.chunks_vdb,
+                self.text_chunks,
+                param,
+                asdict(self),
+            )
+        elif param.mode == "naive":
+            response = await naive_query(
+                query,
+                self.chunks_vdb,
+                self.text_chunks,
+                param,
+                asdict(self),
+            )
         else:
             raise ValueError(f"Unknown mode {param.mode}")
         await self._query_done()
         return response
 
     async def ainsert(self, string_or_strings):
+        await self._insert_start()
         try:
             if isinstance(string_or_strings, str):
                 string_or_strings = [string_or_strings]
@@ -218,21 +275,14 @@ class GraphRAG:
             logger.info(f"[New Docs] inserting {len(new_docs)} docs")
 
             # ---------- chunking
-            inserting_chunks = {}
-            for doc_key, doc in new_docs.items():
-                chunks = {
-                    compute_mdhash_id(dp["content"], prefix="chunk-"): {
-                        **dp,
-                        "full_doc_id": doc_key,
-                    }
-                    for dp in chunking_by_token_size(
-                        doc["content"],
-                        overlap_token_size=self.chunk_overlap_token_size,
-                        max_token_size=self.chunk_token_size,
-                        tiktoken_model=self.tiktoken_model_name,
-                    )
-                }
-                inserting_chunks.update(chunks)
+
+            inserting_chunks = get_chunks(
+                new_docs=new_docs,
+                chunk_func=self.chunk_func,
+                overlap_token_size=self.chunk_overlap_token_size,
+                max_token_size=self.chunk_token_size,
+            )
+
             _add_chunk_keys = await self.text_chunks.filter_keys(
                 list(inserting_chunks.keys())
             )
@@ -243,13 +293,16 @@ class GraphRAG:
                 logger.warning(f"All chunks are already in the storage")
                 return
             logger.info(f"[New Chunks] inserting {len(inserting_chunks)} chunks")
+            if self.enable_naive_rag:
+                logger.info("Insert chunks for naive RAG")
+                await self.chunks_vdb.upsert(inserting_chunks)
 
             # TODO: no incremental update for communities now, so just drop all
             await self.community_reports.drop()                             # empty the data
 
             # ---------- extract/summary entity and upsert to graph
             logger.info("[Entity Extraction]...")
-            maybe_new_kg = await extract_entities(
+            maybe_new_kg = await self.entity_extraction_func(
                 inserting_chunks,
                 knwoledge_graph_inst=self.chunk_entity_relation_graph,      # graph storage
                 entity_vdb=self.entities_vdb,                               # vector db for entities
@@ -274,6 +327,16 @@ class GraphRAG:
         finally:
             await self._insert_done()
 
+    async def _insert_start(self):
+        tasks = []
+        for storage_inst in [
+            self.chunk_entity_relation_graph,
+        ]:
+            if storage_inst is None:
+                continue
+            tasks.append(cast(StorageNameSpace, storage_inst).index_start_callback())
+        await asyncio.gather(*tasks)
+
     async def _insert_done(self):
         tasks = []
         for storage_inst in [
@@ -282,6 +345,7 @@ class GraphRAG:
             self.llm_response_cache,
             self.community_reports,
             self.entities_vdb,
+            self.chunks_vdb,
             self.chunk_entity_relation_graph,
         ]:
             if storage_inst is None:

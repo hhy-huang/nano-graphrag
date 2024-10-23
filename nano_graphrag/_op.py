@@ -1,12 +1,10 @@
-import asyncio
-import json
 import re
+import json
+import asyncio
+import tiktoken
 from typing import Union
 from collections import Counter, defaultdict
-
-from openai import AsyncOpenAI
-
-from ._llm import gpt_4o_complete
+from ._splitter import SeparatorSplitter
 from ._utils import (
     logger,
     clean_str,
@@ -32,24 +30,93 @@ from .prompt import GRAPH_FIELD_SEP, PROMPTS
 
 
 def chunking_by_token_size(
-    content: str, overlap_token_size=128, max_token_size=1024, tiktoken_model="gpt-4o"
+    tokens_list: list[list[int]],
+    doc_keys,
+    tiktoken_model,
+    overlap_token_size=128,
+    max_token_size=1024,
 ):
-    tokens = encode_string_by_tiktoken(content, model_name=tiktoken_model)  # tokenizer
+  # tokenizer
     results = []
-    for index, start in enumerate(                                          # begin chunking
-        range(0, len(tokens), max_token_size - overlap_token_size)          # tolerance: overlap_token_size
-    ):
-        chunk_content = decode_tokens_by_tiktoken(                          # decode from token id
-            tokens[start : start + max_token_size], model_name=tiktoken_model
-        )
-        results.append(                                                     # add to chunking result
-            {
-                "tokens": min(max_token_size, len(tokens) - start),         # for the last one
-                "content": chunk_content.strip(),
-                "chunk_order_index": index,                                 # chunk index
-            }
-        )
+    for index, tokens in enumerate(tokens_list):
+        chunk_token = []
+        lengths = []
+        for start in range(0, len(tokens), max_token_size - overlap_token_size):
+
+            chunk_token.append(tokens[start : start + max_token_size])
+            lengths.append(min(max_token_size, len(tokens) - start))
+
+        # here somehow tricky, since the whole chunk tokens is list[list[list[int]]] for corpus(doc(chunk)),so it can't be decode entirely
+        chunk_token = tiktoken_model.decode_batch(chunk_token)
+        for i, chunk in enumerate(chunk_token):
+
+            results.append(
+                {
+                    "tokens": lengths[i],
+                    "content": chunk.strip(),
+                    "chunk_order_index": i,
+                    "full_doc_id": doc_keys[index],
+                }
+            )
+
     return results
+
+
+def chunking_by_seperators(
+    tokens_list: list[list[int]],
+    doc_keys,
+    tiktoken_model,
+    overlap_token_size=128,
+    max_token_size=1024,
+):
+
+    splitter = SeparatorSplitter(
+        separators=[
+            tiktoken_model.encode(s) for s in PROMPTS["default_text_separator"]
+        ],
+        chunk_size=max_token_size,
+        chunk_overlap=overlap_token_size,
+    )
+    results = []
+    for index, tokens in enumerate(tokens_list):
+        chunk_token = splitter.split_tokens(tokens)
+        lengths = [len(c) for c in chunk_token]
+
+        # here somehow tricky, since the whole chunk tokens is list[list[list[int]]] for corpus(doc(chunk)),so it can't be decode entirely
+        chunk_token = tiktoken_model.decode_batch(chunk_token)
+        for i, chunk in enumerate(chunk_token):
+
+            results.append(
+                {
+                    "tokens": lengths[i],
+                    "content": chunk.strip(),
+                    "chunk_order_index": i,
+                    "full_doc_id": doc_keys[index],
+                }
+            )
+
+    return results
+
+
+def get_chunks(new_docs, chunk_func=chunking_by_token_size, **chunk_func_params):
+    inserting_chunks = {}
+
+    new_docs_list = list(new_docs.items())
+    docs = [new_doc[1]["content"] for new_doc in new_docs_list]
+    doc_keys = [new_doc[0] for new_doc in new_docs_list]
+
+    ENCODER = tiktoken.encoding_for_model("gpt-4o")
+    tokens = ENCODER.encode_batch(docs, num_threads=16)
+    chunks = chunk_func(
+        tokens, doc_keys=doc_keys, tiktoken_model=ENCODER, **chunk_func_params
+    )
+
+    for chunk in chunks:
+        inserting_chunks.update(
+            {compute_mdhash_id(chunk["content"], prefix="chunk-"): chunk}
+        )
+
+    return inserting_chunks
 
 
 async def _handle_entity_relation_summary(
@@ -83,7 +150,7 @@ async def _handle_single_entity_extraction(
     record_attributes: list[str],
     chunk_key: str,
 ):
-    if record_attributes[0] != '"entity"' or len(record_attributes) < 4:
+    if len(record_attributes) < 4 or record_attributes[0] != '"entity"':
         return None
     # add this record as a node in the G
     entity_name = clean_str(record_attributes[1].upper())
@@ -104,7 +171,7 @@ async def _handle_single_relationship_extraction(
     record_attributes: list[str],
     chunk_key: str,
 ):
-    if record_attributes[0] != '"relationship"' or len(record_attributes) < 5:      # according to the prompt
+    if len(record_attributes) < 5 or record_attributes[0] != '"relationship"':
         return None
     # add this record as edge
     source = clean_str(record_attributes[1].upper())
@@ -180,6 +247,7 @@ async def _merge_edges_then_upsert(
     already_weights = []
     already_source_ids = []
     already_description = []
+    already_order = []
     if await knwoledge_graph_inst.has_edge(src_id, tgt_id):
         already_edge = await knwoledge_graph_inst.get_edge(src_id, tgt_id)
         already_weights.append(already_edge["weight"])
@@ -187,7 +255,10 @@ async def _merge_edges_then_upsert(
             split_string_by_multi_markers(already_edge["source_id"], [GRAPH_FIELD_SEP])
         )
         already_description.append(already_edge["description"])
+        already_order.append(already_edge.get("order", 1))
 
+    # [numberchiffre]: `Relationship.order` is only returned from DSPy's predictions
+    order = min([dp.get("order", 1) for dp in edges_data] + already_order)
     weight = sum([dp["weight"] for dp in edges_data] + already_weights)
     description = GRAPH_FIELD_SEP.join(
         sorted(set([dp["description"] for dp in edges_data] + already_description))
@@ -212,9 +283,7 @@ async def _merge_edges_then_upsert(
         src_id,
         tgt_id,
         edge_data=dict(
-            weight=weight,
-            description=description,
-            source_id=source_id,
+            weight=weight, description=description, source_id=source_id, order=order
         ),
     )
 
@@ -304,7 +373,7 @@ async def extract_entities(
             already_processed % len(PROMPTS["process_tickers"])
         ]
         print(
-            f"{now_ticks} Processed {already_processed} chunks, {already_entities} entities(duplicated), {already_relations} relations(duplicated)\r",
+            f"{now_ticks} Processed {already_processed}({already_processed*100//len(ordered_chunks)}%) chunks,  {already_entities} entities(duplicated), {already_relations} relations(duplicated)\r",
             end="",
             flush=True,
         )
@@ -398,6 +467,7 @@ async def _pack_single_community_describe(
     community: SingleCommunitySchema,
     max_token_size: int = 12000,
     already_reports: dict[str, CommunitySchema] = {},
+    global_config: dict = {},
 ) -> str:
     nodes_in_order = sorted(community["nodes"])
     edges_in_order = sorted(community["edges"], key=lambda x: x[0] + x[1])
@@ -445,9 +515,15 @@ async def _pack_single_community_describe(
 
     # If context is exceed the limit and have sub-communities:
     report_describe = ""
-    if truncated and len(community["sub_communities"]) and len(already_reports):
-        logger.info(
-            f"Community {community['title']} exceeds the limit, using its sub-communities"
+    need_to_use_sub_communities = (
+        truncated and len(community["sub_communities"]) and len(already_reports)
+    )
+    force_to_use_sub_communities = global_config["addon_params"].get(
+        "force_to_use_sub_communities", False
+    )
+    if need_to_use_sub_communities or force_to_use_sub_communities:
+        logger.debug(
+            f"Community {community['title']} exceeds the limit or you set force_to_use_sub_communities to True, using its sub-communities"
         )
         report_describe, report_size, contain_nodes, contain_edges = (
             _pack_single_community_by_sub_communities(
@@ -543,6 +619,7 @@ async def generate_community_report(
             community,
             max_token_size=global_config["best_model_max_token_size"],
             already_reports=already_reports,
+            global_config=global_config,
         )
         prompt = community_report_prompt.format(input_text=describe)
         response = await use_llm_func(prompt, **llm_extra_kwargs)
@@ -991,5 +1068,39 @@ Importance Score: {dp['score']}
         sys_prompt_temp.format(
             report_data=points_context, response_type=query_param.response_type
         ),
+    )
+    return response
+
+
+async def naive_query(
+    query,
+    chunks_vdb: BaseVectorStorage,
+    text_chunks_db: BaseKVStorage[TextChunkSchema],
+    query_param: QueryParam,
+    global_config: dict,
+):
+    use_model_func = global_config["best_model_func"]
+    results = await chunks_vdb.query(query, top_k=query_param.top_k)
+    if not len(results):
+        return PROMPTS["fail_response"]
+    chunks_ids = [r["id"] for r in results]
+    chunks = await text_chunks_db.get_by_ids(chunks_ids)
+
+    maybe_trun_chunks = truncate_list_by_token_size(
+        chunks,
+        key=lambda x: x["content"],
+        max_token_size=query_param.naive_max_token_for_text_unit,
+    )
+    logger.info(f"Truncate {len(chunks)} to {len(maybe_trun_chunks)} chunks")
+    section = "--New Chunk--\n".join([c["content"] for c in maybe_trun_chunks])
+    if query_param.only_need_context:
+        return section
+    sys_prompt_temp = PROMPTS["naive_rag_response"]
+    sys_prompt = sys_prompt_temp.format(
+        content_data=section, response_type=query_param.response_type
+    )
+    response = await use_model_func(
+        query,
+        system_prompt=sys_prompt,
     )
     return response

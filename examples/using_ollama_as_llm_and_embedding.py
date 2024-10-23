@@ -1,32 +1,24 @@
 import os
+import sys
+
+sys.path.append("..")
 import logging
 import ollama
 import numpy as np
 from nano_graphrag import GraphRAG, QueryParam
-from nano_graphrag import GraphRAG, QueryParam
 from nano_graphrag.base import BaseKVStorage
 from nano_graphrag._utils import compute_args_hash, wrap_embedding_func_with_attrs
-from sentence_transformers import SentenceTransformer
 
 logging.basicConfig(level=logging.WARNING)
 logging.getLogger("nano-graphrag").setLevel(logging.INFO)
 
-# !!! qwen2-7B maybe produce unparsable results and cause the extraction of graph to fail.
-WORKING_DIR = "./nano_graphrag_cache_ollama_TEST"
-MODEL = "qwen2"
+# Assumed llm model settings
+MODEL = "your_model_name"
 
-EMBED_MODEL = SentenceTransformer(
-    "sentence-transformers/all-MiniLM-L6-v2", cache_folder=WORKING_DIR, device="cpu"
-)
-
-
-# We're using Sentence Transformers to generate embeddings for the BGE model
-@wrap_embedding_func_with_attrs(
-    embedding_dim=EMBED_MODEL.get_sentence_embedding_dimension(),
-    max_token_size=EMBED_MODEL.max_seq_length,
-)
-async def local_embedding(texts: list[str]) -> np.ndarray:
-    return EMBED_MODEL.encode(texts, normalize_embeddings=True)
+# Assumed embedding model settings
+EMBEDDING_MODEL = "nomic-embed-text"
+EMBEDDING_MODEL_DIM = 768
+EMBEDDING_MODEL_MAX_TOKENS = 8192
 
 
 async def ollama_model_if_cache(
@@ -66,12 +58,15 @@ def remove_if_exist(file):
         os.remove(file)
 
 
+WORKING_DIR = "./nano_graphrag_cache_ollama_TEST"
+
+
 def query():
     rag = GraphRAG(
         working_dir=WORKING_DIR,
         best_model_func=ollama_model_if_cache,
         cheap_model_func=ollama_model_if_cache,
-        embedding_func=local_embedding,
+        embedding_func=ollama_embedding,
     )
     print(
         rag.query(
@@ -97,13 +92,27 @@ def insert():
         enable_llm_cache=True,
         best_model_func=ollama_model_if_cache,
         cheap_model_func=ollama_model_if_cache,
-        embedding_func=local_embedding,
+        embedding_func=ollama_embedding,
     )
     start = time()
     rag.insert(FAKE_TEXT)
     print("indexing time:", time() - start)
     # rag = GraphRAG(working_dir=WORKING_DIR, enable_llm_cache=True)
     # rag.insert(FAKE_TEXT[half_len:])
+
+
+# We're using Ollama to generate embeddings for the BGE model
+@wrap_embedding_func_with_attrs(
+    embedding_dim=EMBEDDING_MODEL_DIM,
+    max_token_size=EMBEDDING_MODEL_MAX_TOKENS,
+)
+async def ollama_embedding(texts: list[str]) -> np.ndarray:
+    embed_text = []
+    for text in texts:
+        data = ollama.embeddings(model=EMBEDDING_MODEL, prompt=text)
+        embed_text.append(data["embedding"])
+
+    return embed_text
 
 
 if __name__ == "__main__":

@@ -16,6 +16,10 @@ MODEL = "qwen2"
 async def ollama_model_if_cache(
     prompt, system_prompt=None, history_messages=[], **kwargs
 ) -> str:
+    # remove kwargs that are not supported by ollama
+    kwargs.pop("max_tokens", None)
+    kwargs.pop("response_format", None)
+
     ollama_client = ollama.AsyncClient()
     messages = []
     if system_prompt:

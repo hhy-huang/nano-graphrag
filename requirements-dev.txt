@@ -2,3 +2,5 @@ flake8
 pytest
 future
 pytest-asyncio
+pytest-cov
+python-dotenv
