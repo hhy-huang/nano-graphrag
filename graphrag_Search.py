@@ -1,6 +1,6 @@
 import os
 from nano_graphrag import GraphRAG, QueryParam
-os.environ["OPENAI_API_KEY"] = "***"
+# os.environ["OPENAI_API_KEY"] = "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"
 
 
 graph_func = GraphRAG(working_dir="./web3")

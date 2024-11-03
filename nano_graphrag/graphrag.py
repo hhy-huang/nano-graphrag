@@ -11,11 +11,12 @@ import tiktoken
 from ._llm import (
     gpt_4o_complete,
     gpt_4o_mini_complete,
+    gpt_35_turbo_complete,
     openai_embedding,
     azure_gpt_4o_complete,
     azure_openai_embedding,
     azure_gpt_4o_mini_complete,
-), gpt_35_turbo_complete
+)
 from ._op import (
     chunking_by_token_size,
     extract_entities,
@@ -107,11 +108,10 @@ class GraphRAG:
 
     # LLM
     using_azure_openai: bool = False
-    # best_model_func: callable = gpt_4o_complete
     best_model_func: callable = gpt_35_turbo_complete
     best_model_max_token_size: int = 32768
     best_model_max_async: int = 16
-    cheap_model_func: callable = gpt_4o_mini_complete
+    cheap_model_func: callable = gpt_35_turbo_complete
     cheap_model_max_token_size: int = 32768
     cheap_model_max_async: int = 16
 
@@ -219,7 +219,7 @@ class GraphRAG:
         if param.mode == "local":
             response = await local_query(
                 query,
-                self.chunk_entity_relation_graph,           # graph storage
+                self.chunk_entity_relation_graph,
                 self.entities_vdb,
                 self.community_reports,
                 self.text_chunks,
@@ -229,17 +229,9 @@ class GraphRAG:
         elif param.mode == "global":
             response = await global_query(
                 query,
-                self.chunk_entity_relation_graph,           # entity-relation graph
-                self.entities_vdb,                          # entity vector
-                self.community_reports,                     # community reports
-                self.text_chunks,                           # chunks
-                param,
-                asdict(self),
-            )
-        elif param.mode == "naive":
-            response = await naive_query(
-                query,
-                self.chunks_vdb,
+                self.chunk_entity_relation_graph,
+                self.entities_vdb,
+                self.community_reports,
                 self.text_chunks,
                 param,
                 asdict(self),
@@ -304,8 +296,8 @@ class GraphRAG:
             logger.info("[Entity Extraction]...")
             maybe_new_kg = await self.entity_extraction_func(
                 inserting_chunks,
-                knwoledge_graph_inst=self.chunk_entity_relation_graph,      # graph storage
-                entity_vdb=self.entities_vdb,                               # vector db for entities
+                knwoledge_graph_inst=self.chunk_entity_relation_graph,
+                entity_vdb=self.entities_vdb,
                 global_config=asdict(self),
             )
             if maybe_new_kg is None:
