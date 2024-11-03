@@ -1,5 +1,4 @@
 import os
-# os.environ["OPENAI_API_KEY"] = "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"
 import json
 import sys
 # sys.path.append("../..")
