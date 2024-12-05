@@ -290,7 +290,7 @@ async def _merge_edges_then_upsert(
 
 async def extract_entities(
     chunks: dict[str, TextChunkSchema],
-    knwoledge_graph_inst: BaseGraphStorage,
+    knwoledge_graph_inst: BaseGraphStorage,                     # no use here
     entity_vdb: BaseVectorStorage,
     global_config: dict,
 ) -> Union[BaseGraphStorage, None]:
@@ -408,9 +408,9 @@ async def extract_entities(
         logger.warning("Didn't extract any entities, maybe your LLM is not working")
         return None
     if entity_vdb is not None:
-        data_for_vdb = {
+        data_for_vdb = {                                # key is the md5 hash of the entity name string
             compute_mdhash_id(dp["entity_name"], prefix="ent-"): {
-                "content": dp["entity_name"] + dp["description"],
+                "content": dp["entity_name"] + dp["description"],   # entity name and description construct the content
                 "entity_name": dp["entity_name"],
             }
             for dp in all_entities_data

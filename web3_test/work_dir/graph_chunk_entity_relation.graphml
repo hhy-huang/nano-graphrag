@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;BITCOIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Bitcoin is a peer-to-peer electronic cash system that aims to facilitate online payments without requiring financial institutions."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;SATOSHI NAKAMOTO&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Satoshi Nakamoto is associated with the creation and development of Bitcoin, as indicated by the provided email and website."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;CRYPTOGRAPHIC PROOF&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Cryptographic Proof is proposed as a method to ensure secure transactions without the need for trust in a centralized authority."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;PEER-TO-PEER ELECTRONIC CASH SYSTEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A Peer-to-Peer Electronic Cash System is the proposed model for online payments without intermediaries, central to the Bitcoin framework."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;ONLINE PAYMENTS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Online Payments are transactions conducted over the internet, a key feature enabled by the Bitcoin system."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;DIGITAL SIGNATURES&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Digital Signatures are utilized in the Bitcoin system to provide security and authenticity for transactions."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;TRUSTED THIRD PARTY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A Trusted Third Party is an entity that ensures the security and reliability of transactions, a role that Bitcoin aims to eliminate."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;DOUBLE-SPENDING PROBLEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Double-Spending Problem refers to the risk of spending the same digital currency more than once, a challenge addressed by Bitcoin's proposed solution."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;PEER-TO-PEER NETWORK&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Peer-to-Peer Network is the infrastructure used in Bitcoin to timestamp transactions and maintain a secure ledger without central authority."&lt;SEP&gt;"peer-to-peer network is mentioned as the network structure used to record transactions and prevent double-spending."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;HASH-BASED PROOF-OF-WORK&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Hash-Based Proof-of-Work is a method employed by Bitcoin to validate transactions and secure the network."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;CPU POWER&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"CPU Power refers to the computational resources used in Bitcoin mining to ensure the security and integrity of the network."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Nodes are participants in the Bitcoin network that contribute computational power to process transactions and secure the blockchain."&lt;SEP&gt;"Nodes are referenced as participants in the network that collectively maintain the blockchain."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;TRANSACTIONS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Transactions refer to the exchange of Bitcoin or digital assets on the blockchain network, crucial for maintaining the ledger's integrity."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;CHAIN OF DIGITAL SIGNATURES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Chain of Digital Signatures is the method used in Bitcoin to verify and track the ownership history of digital coins."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;TRANSACTION VERIFICATION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Transaction Verification is the process in Bitcoin where payees confirm the validity of received transactions through digital signatures."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;TIMESTAMP SERVER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Timestamp Server is a component of the Bitcoin network that timestamps transactions and ensures the chronological order of events in the blockchain."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;ADAM BACK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Adam Back serves as the inspiration for the proof-of-work system used in the distributed timestamp server implementation."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;HASHCASH&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Hashcash is referred to as the basis for the proof-of-work system in the text."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;SHA-256&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SHA-256 is mentioned as the hashing algorithm used in the proof-of-work process."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;WASHINGTON&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Washington is a location where communications are being received, indicating its importance in decision-making processes."&lt;SEP&gt;"Washington is a location where communications are being received, indicating its relevance to the activity."&lt;SEP&gt;"Washington is mentioned in the context of communications that influence decision-making processes."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b&lt;SEP&gt;chunk-a445e8e84576c92ded4494e656cde0aa&lt;SEP&gt;chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;TRANSACTION OWNER&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"Transaction Owner refers to individuals involved in the ownership and signing of transactions within the network."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;BLOCK&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Blocks are described as containers for transactions that get added to the blockchain through the proof-of-work process."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;PEER-TO-PEER BASIS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Peer-to-Peer Basis is mentioned as the approach for the distributed timestamp server implementation."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;THE NETWORK&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Network is referred to as the decentralized system that runs the blockchain and handles transactions."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Blockchain is the technology used to store transactional data in a secure and transparent manner."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;PROOF-OF-WORK&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Proof-of-Work is a method to ensure security and agreement within the decentralized network by solving computational puzzles."&lt;SEP&gt;"proof-of-work is a technology mentioned in the text as a method for recording a public history of transactions."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b&lt;SEP&gt;chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;MAJORITY DECISION MAKING&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Majority Decision Making is discussed as a process that relies on proof-of-work to prevent manipulation and ensure fairness."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;NEW COINS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"New Coins are introduced into circulation as a reward for participants who contribute computational power to the network."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;TRANSACTION FEES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Transaction Fees are charges imposed on network participants for processing their transactions and maintaining the network."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;INFLATION-FREE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Inflation-Free refers to a system where the creation of new coins is controlled and incentivized through transaction fees."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;MERKLE TREE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Merkle Tree is a data structure used to efficiently store and verify transaction data in a blockchain."&lt;SEP&gt;"Merkle Tree is a method used for hashing transactions, with implications for compacting old blocks, demonstrating a technical concept."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b&lt;SEP&gt;chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Reclaiming Disk Space is described as a process that involves discarding spent transactions to save disk space, highlighting an operational aspect."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;SIMPLIFIED PAYMENT VERIFICATION&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Simplified Payment Verification is a method for verifying payments without running a full network node, showcasing a streamlined verification process."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Combining and Splitting Value is a transaction process involving multiple inputs and outputs, emphasizing the flexibility in handling value transfers."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;PRIVACY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Privacy is discussed in the context of maintaining anonymity and security in transactions, involving strategies to protect sensitive information."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;CALCULATIONS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Calculations involve scenarios of attacker behavior and the dynamics of blockchain security, illustrating mathematical considerations in the system."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;INDIVIDUAL&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"An individual is described as playing by the rules and benefiting from the system in terms of acquiring new coins."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;SYSTEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The system is mentioned as a framework where individuals can gain wealth and follow rules, indicating its role in the activity."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;BLOCKS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Blocks serve as containers for transactions and play a role in maintaining the blockchain, highlighting their technical significance."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;RAM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"RAM is referred to as a storage component in computer systems, with implications for storing block headers."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;NETWORK NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Network nodes are referenced as entities holding block headers, influencing the verification process in the network."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ATTACKER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"An attacker attempts to change transactions to take back money, engaging in a strategy based on probabilities and calculations."&lt;SEP&gt;"An attacker is described as a potential threat to the blockchain system, aiming to manipulate transactions for personal gain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa&lt;SEP&gt;chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;CHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Chain refers to the blockchain structure, pivotal in tracking transactions and maintaining the integrity of the system."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;HONEST CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Honest Chain represents the legitimate chain of transactions, competing against an attacker chain in a random walk scenario."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;ATTACKER CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Attacker Chain is a competing chain of transactions that seeks to catch up with and overtake the Honest Chain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;GAMBLER'S RUIN&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Gambler's Ruin is referred to as a problem analogous to the probability of an attacker catching up with a deficit in a blockchain scenario."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;POISSON DISTRIBUTION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Poisson Distribution is introduced to calculate the potential progress of an attacker trying to catch up with honest blocks in a blockchain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;BINOMIAL RANDOM WALK&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The race between the Honest Chain and the Attacker Chain is characterized as a Binomial Random Walk, where the success and failure events impact the progression of each chain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;THRESHOLD&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The individuals involved have transitioned from mere operatives to guardians of a threshold, indicating a shift in their mission and responsibilities."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;MESSAGE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The individuals are keepers of a message from a realm beyond stars and stripes, emphasizing the importance of the communication they are handling."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;RECEIPIENT&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The recipient of a new transaction waits to ensure the sender cannot change the transaction, engaging in strategies to prevent fraudulent activities."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;SENDER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The sender of a new transaction is described as potentially deceptive, wanting to make the recipient believe a payment was made before changing it to pay back to himself."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;KEY PAIR&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The recipient generates a new key pair to ensure the security and authenticity of transactions, maintaining control over the communication process."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;CHAIN OF BLOCKS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The dishonest sender works on a parallel chain containing an alternate version of the transaction, attempting to manipulate the blockchain records."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;SUCCESS EVENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The success event in the Binomial Random Walk scenario is when the Honest Chain is extended by one block, showcasing progress in the blockchain system."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;FAILURE EVENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The failure event in the Binomial Random Walk scenario is when the Attacker's Chain is extended by one block, indicating setbacks in the competitive blockchain environment."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;CONTROL&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Control is referred to as an illusion when facing an intelligence that writes its own rules, highlighting the limitations in managing certain situations."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;REALM&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The message handled by the individuals originates from a realm beyond stars and stripes, symbolizing a distant and mysterious source."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;W. DAI&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"W. Dai is a person mentioned in a reference related to electronic transactions and trust."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;H. MASSIAS, X.S. AVILA, AND J.-J. QUISQUATER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"H. Massias, X.S. Avila, and J.-J. Quisquater are individuals mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;S. HABER, W.S. STORNETTA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"S. Haber and W.S. Stornetta are individuals mentioned in references related to digital timestamping and secure names for bit-strings."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;D. BAYER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"D. Bayer is a person mentioned in a reference related to digital time-stamping efficiency and reliability."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;A. BACK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A. Back is a person mentioned in a reference related to hashcash as a denial of service counter-measure."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;H. MASSIAS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"H. Massias is a person mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;X.S. AVILA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"X.S. Avila is a person mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;J.-J. QUISQUATER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"J.-J. Quisquater is a person mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;RECIPIENT&quot;">
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d1">"The Attacker aims to deceive the Recipient by changing transactions after a certain time has passed, leading to potential alerts and response mechanisms."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;INTELLIGENCE&quot;">
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d1">"The concept of Control is challenged by an intelligence that writes its own rules, highlighting the complexity of managing certain scenarios."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ELECTRONIC TRANSACTIONS&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"W. Dai is mentioned in a reference related to electronic transactions and trust."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SECURE TIMESTAMPING&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"H. Massias, X.S. Avila, and J.-J. Quisquater are mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;DIGITAL TIMESTAMPING&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"S. Haber and W.S. Stornetta are mentioned in references related to digital timestamping and secure names for bit-strings."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;DIGITAL TIME-STAMPING EFFICIENCY&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"D. Bayer is mentioned in a reference related to digital time-stamping efficiency and reliability."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"H. Massias, X.S. Avila, and J.-J. Quisquater are mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;SATOSHI NAKAMOTO&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Satoshi Nakamoto is linked to the creation and development of Bitcoin, potentially being a key figure in its origin."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;CRYPTOGRAPHIC PROOF&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Bitcoin proposes the use of cryptographic proof to ensure secure transactions without relying on trust in third parties."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SATOSHI NAKAMOTO&quot;" target="&quot;CRYPTOGRAPHIC PROOF&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Satoshi Nakamoto's involvement in Bitcoin implies a connection to the concept of cryptographic proof for secure transactions."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PEER-TO-PEER ELECTRONIC CASH SYSTEM&quot;" target="&quot;ONLINE PAYMENTS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Bitcoin's Peer-to-Peer Electronic Cash System enables secure online payments directly between parties, eliminating the need for intermediaries."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIGITAL SIGNATURES&quot;" target="&quot;TRUSTED THIRD PARTY&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Digital Signatures are used to provide security in transactions, reducing reliance on trusted third parties."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PEER-TO-PEER NETWORK&quot;" target="&quot;HASH-BASED PROOF-OF-WORK&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Peer-to-Peer Network utilizes Hash-Based Proof-of-Work to secure transactions and maintain the integrity of the ledger."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PEER-TO-PEER NETWORK&quot;" target="&quot;PROOF-OF-WORK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"proof-of-work is used in a peer-to-peer network to record a public history of transactions."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PEER-TO-PEER NETWORK&quot;" target="&quot;TRANSACTIONS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"peer-to-peer network records transactions and prevents double-spending."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CPU POWER&quot;" target="&quot;NODES&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"CPU Power controlled by honest Nodes ensures the integrity of the blockchain and prevents malicious attacks."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NODES&quot;" target="&quot;BLOCK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Nodes work collectively to add transactions to blocks through the proof-of-work process, contributing to maintaining the blockchain."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADAM BACK&quot;" target="&quot;HASHCASH&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The proof-of-work system used is influenced by Hashcash, an innovation by Adam Back."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HASHCASH&quot;" target="&quot;SHA-256&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Hashcash, the basis for the proof-of-work system, involves hashing with SHA-256 for security."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HASHCASH&quot;" target="&quot;A. BACK&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"A. Back is mentioned in a reference related to hashcash as a denial of service counter-measure."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;ATTACKER&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"There is a connection between the Attacker's actions and the communications from Washington, which influence decision-making."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TRANSACTION OWNER&quot;" target="&quot;BLOCK&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Transaction Owners are responsible for transactions within blocks, indicating their role in the network's operation."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;MERKLE TREE&quot;" target="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The process of Reclaiming Disk Space involves hashing transactions in a Merkle Tree, showcasing a technical application."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;MERKLE TREE&quot;" target="&quot;SIMPLIFIED PAYMENT VERIFICATION&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Merkle Tree's usage impacts Simplified Payment Verification, demonstrating a technology-driven verification process."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;RECLAIMING DISK SPACE&quot;" target="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Reclaiming Disk Space and Combining and Splitting Value are operational aspects of transaction handling, indicating a functional connection."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;COMBINING AND SPLITTING VALUE&quot;" target="&quot;PRIVACY&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Handling value transfers involves privacy considerations, emphasizing the importance of security in transactions."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;COMBINING AND SPLITTING VALUE&quot;" target="&quot;CALCULATIONS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Calculations involve scenarios related to transaction processes, highlighting the mathematical implications of value manipulation."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INDIVIDUAL&quot;" target="&quot;SYSTEM&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Individuals operate within the system, benefiting from its rules and generating wealth, showcasing a symbiotic relationship."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BLOCKS&quot;" target="&quot;RAM&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Blocks are referenced in relation to RAM storage, indicating the technical aspect of block header retention."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NETWORK NODES&quot;" target="&quot;ATTACKER&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Network nodes can be targeted by attackers to manipulate transactions, highlighting a potential vulnerability."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ATTACKER&quot;" target="&quot;CHAIN&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The chain is at risk of manipulation by an attacker, posing a threat to the integrity of transactions and the system."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ATTACKER&quot;" target="&quot;HONEST CHAIN&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Attacker attempts to catch up with the Honest Chain by changing transactions, creating a competitive dynamic in the blockchain environment."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ATTACKER&quot;" target="&quot;GAMBLER'S RUIN&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The concept of Gambler's Ruin is linked to the attacker's probability of catching up with the Honest Chain, highlighting the analogy in the blockchain scenario."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ATTACKER&quot;" target="&quot;RECIPIENT&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Attacker aims to deceive the Recipient by changing transactions after a certain time has passed, leading to potential alerts and response mechanisms."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HONEST CHAIN&quot;" target="&quot;ATTACKER CHAIN&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Honest Chain competes against the Attacker Chain in a race to extend its lead, showcasing the dynamics of the blockchain system."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HONEST CHAIN&quot;" target="&quot;POISSON DISTRIBUTION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Poisson Distribution is used to calculate the potential progress an attacker could make in catching up with the Honest Chain, providing insights into the attacker's probabilities."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;MESSAGE&quot;" target="&quot;REALM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The message handled by the individuals originates from a realm beyond stars and stripes, emphasizing the mysterious and significant nature of the communication."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SENDER&quot;" target="&quot;KEY PAIR&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Sender generates a new key pair to maintain security and prevent manipulation of transactions, ensuring a level of trust in the communication process."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CHAIN OF BLOCKS&quot;" target="&quot;RECIPIENT&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The recipient waits for the transaction to be added to a block and monitors the progress in the chain of blocks, assessing potential risks and fraudulent activities."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CONTROL&quot;" target="&quot;INTELLIGENCE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The concept of Control is challenged by an intelligence that writes its own rules, highlighting the complexity of managing certain scenarios."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;W. DAI&quot;" target="&quot;ELECTRONIC TRANSACTIONS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"W. Dai is mentioned in a reference related to electronic transactions and trust."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;H. MASSIAS, X.S. AVILA, AND J.-J. QUISQUATER&quot;" target="&quot;SECURE TIMESTAMPING&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"H. Massias, X.S. Avila, and J.-J. Quisquater are mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;H. MASSIAS, X.S. AVILA, AND J.-J. QUISQUATER&quot;" target="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"H. Massias, X.S. Avila, and J.-J. Quisquater are mentioned in a reference related to secure timestamping services with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;S. HABER, W.S. STORNETTA&quot;" target="&quot;DIGITAL TIMESTAMPING&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"S. Haber and W.S. Stornetta are mentioned in references related to digital timestamping and secure names for bit-strings."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;D. BAYER&quot;" target="&quot;DIGITAL TIME-STAMPING EFFICIENCY&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"D. Bayer is mentioned in a reference related to digital time-stamping efficiency and reliability."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,1868 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;BITCOIN&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Bitcoin introduced the concept of blockchain technology, influencing the development of subsequent cryptocurrencies."&lt;SEP&gt;"Bitcoin is a decentralized electronic cash system designed to allow direct online payments between parties without the need for a financial institution."&lt;SEP&gt;"Bitcoin is one of the blockchains that the ARK Crew plans to bridge with their technology."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-f4241a7efe449cb9b97eebb53fd88918&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;SATOSHI NAKAMOTO&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Satoshi Nakamoto is the individual or group credited with the creation of Bitcoin and the original whitepaper."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;WWW.BITCOIN.ORG&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"www.bitcoin.org is a website associated with Bitcoin, providing information and resources about the cryptocurrency."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;WASHINGTON&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Washington is a location mentioned in the text as a communication center."&lt;SEP&gt;"Washington is a location mentioned in the text where communications are received and influence decision-making processes."&lt;SEP&gt;"Washington is a location referenced in the text as a communication hub."&lt;SEP&gt;"Washington is a reference to the capital city of the United States, potentially indicating a government entity."&lt;SEP&gt;"Washington is mentioned in connection to communications with the team, influencing decision-making."&lt;SEP&gt;"Washington serves as a key location where communications are received, impacting decision-making processes."&lt;SEP&gt;"Washington is a location that the team receives communications from, influencing decision-making."&lt;SEP&gt;"Washington is a location where communications are being received, indicating its importance in decision-making processes."&lt;SEP&gt;"Washington is a location where communications are being received, indicating its importance in the decision-making process."&lt;SEP&gt;"Washington is a location where communications are being received, influencing decision-making processes."&lt;SEP&gt;"Washington is a location where communications are received, influencing decision-making processes in the organization."&lt;SEP&gt;"Washington is an entity where communications from the ARK system are received, impacting decision-making processes."&lt;SEP&gt;"Washington is referenced as a location where communications are received, influencing decision-making processes within the context of the text."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b&lt;SEP&gt;chunk-d90c7fddfc3cf9e1021ce161cafb8e0b&lt;SEP&gt;chunk-f4241a7efe449cb9b97eebb53fd88918&lt;SEP&gt;chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-be730f3014663d2d3d624e687fee389c&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b&lt;SEP&gt;chunk-6a208c8d873647d5d5f543987c04d1f4&lt;SEP&gt;chunk-22ebea9fec40d85511f2f5e8c542f922&lt;SEP&gt;chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-ef8326a3d809112fa5189f15cf619369&lt;SEP&gt;chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;DIGITAL SIGNATURES&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Digital Signatures play a crucial role in the Bitcoin protocol, providing part of the solution to prevent double-spending."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;DOUBLE-SPENDING PROBLEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Double-Spending Problem refers to the risk of spending the same cryptocurrency units more than once, which Bitcoin aims to solve."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;PEER-TO-PEER NETWORK&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Peer-to-Peer Network is utilized in Bitcoin to timestamp transactions and secure the blockchain against attacks."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;PROOF-OF-WORK&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Proof-of-Work is a consensus algorithm used in Bitcoin to secure the network and validate transactions through computational puzzles."&lt;SEP&gt;"Proof-of-Work is a key mechanism used in blockchain technology to achieve distributed consensus through computational effort."&lt;SEP&gt;"Proof-of-Work is the mechanism used in Bitcoin mining to add new blocks to the blockchain and validate transactions by solving complex mathematical puzzles."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;ELECTRONIC CASH SYSTEM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"An Electronic Cash System is the concept that Bitcoin embodies, enabling peer-to-peer online payments without relying on traditional financial institutions."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;ABSTRACT&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Abstract provided in the text introduces the key components of Bitcoin, highlighting the importance of digital signatures and solving the double-spending problem."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;TRANSACTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Transaction is a key event in the blockchain network, representing the transfer of assets."&lt;SEP&gt;"Transactions are central to the operation of Bitcoin, involving the transfer of digital coins between parties and verification through digital signatures."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;TIMESTAMP SERVER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Timestamp Server is utilized in Bitcoin to create a chronological record of transactions, demonstrating the order of events and proof of existence at a given time."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;DIGITAL COIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Digital Coin in the context of Bitcoin is a chain of digital signatures that represent ownership and are transferred between parties securely."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;BLOCK&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Block is a fundamental component of the blockchain network, containing transactions and linked to previous blocks."&lt;SEP&gt;"Blocks are fundamental units in the Bitcoin blockchain, containing multiple transactions and forming the backbone of the distributed ledger system."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;CRYPTOGRAPHIC PROOF&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Cryptographic Proof is the basis of Bitcoin's security model, ensuring that transactions are valid and immutable through mathematical computations and digital signatures."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;DECENTRALIZED SYSTEM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A Decentralized System like Bitcoin operates without a central authority, relying on a distributed network of nodes to validate and secure transactions."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;TIMESTAMP&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Timestamps play a critical role in Bitcoin to establish the order of transactions on the blockchain and provide cryptographic proof of the data's existence at a specific time."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;CHAIN OF OWNERSHIP&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Chain of Ownership in Bitcoin refers to the sequence of digital signatures that verify the transfer of a digital coin between different owners."</data>
+      <data key="d2">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </node>
+    <node id="&quot;ADAM BACK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Adam Back is mentioned in connection to the proof-of-work system similar to Hashcash."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;SHA-256&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SHA-256 is mentioned as the hashing algorithm used in the proof-of-work process for the timestamp server."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;PEER-TO-PEER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Peer-to-peer is implied as the basis for the distributed timestamp server implementation."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;CPU&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"CPU is mentioned in the context of computational effort required for the proof-of-work process."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Nodes are described as entities running the network and participating in validation and consensus processes."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 4}]</data>
+    </node>
+    <node id="&quot;HASHCASH&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Hashcash is a specific proof-of-work system referenced in the implementation of the timestamp server."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;CRUZ&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Cruz is a character who embodies a vision of control and order, influencing the dynamics among different characters."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;TAYLOR&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Taylor is a character depicted with authoritarian certainty and reverence towards a technology, undergoing a transformation in perspective."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;ALEX&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Alex is a character experiencing frustration and observing the interaction dynamics among Taylor, Jordan, and Cruz."&lt;SEP&gt;"Alex is a character in the text who demonstrates leadership and readiness for first contact."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 11}]</data>
+    </node>
+    <node id="&quot;JORDAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Jordan is a character sharing a commitment to discovery and engaging in significant interactions with Taylor and Cruz."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;THE DEVICE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Device is a technological object revered in the text."&lt;SEP&gt;"The Device plays a central role in the story, symbolizing a potential game-changer and commanding reverence from Taylor."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;ORGANIZATION&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Organization refers to an entity involved in structured activities and decision-making processes within a specific context."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;MISSION&quot;">
+      <data key="d0">"MISSION"</data>
+      <data key="d1">"Mission signifies a set of objectives or goals that guide individuals or groups in their actions and endeavors."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;LOCATION&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Location denotes a specific place or region where events or activities take place, influencing the narrative."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;THE TEAM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The team represents a collective group of individuals transitioning from passive roles to active participants in a mission."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 13}]</data>
+    </node>
+    <node id="&quot;OPERATION: DULCE&quot;">
+      <data key="d0">"MISSION"</data>
+      <data key="d1">"Operation: Dulce is a mission for the team, evolving to interact and prepare, influencing decision-making and humanity's response."&lt;SEP&gt;"Operation: Dulce is a mission that has evolved to interact and prepare, indicating a significant shift in objectives and activities."&lt;SEP&gt;"Operation: Dulce is portrayed as a mission evolving to interact and prepare, reflecting a significant shift in objectives."&lt;SEP&gt;"Operation: Dulce is referenced as a mission that has evolved in the text."&lt;SEP&gt;"Operation: Dulce transforms the team's mandate from observation to interaction and preparation, indicating a strategic shift in mission."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b&lt;SEP&gt;chunk-22ebea9fec40d85511f2f5e8c542f922&lt;SEP&gt;chunk-a445e8e84576c92ded4494e656cde0aa&lt;SEP&gt;chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 13}]</data>
+    </node>
+    <node id="&quot;SAM RIVERA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Sam Rivera is a character in the text showing curiosity in communicating with unknown intelligence."&lt;SEP&gt;"Sam Rivera is portrayed as a team member with a mix of awe and anxiety, contributing to the team's communication efforts."&lt;SEP&gt;"Sam Rivera is mentioned as a character within the text, expressing a mix of awe and anxiety while working on communication with an unknown intelligence."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b&lt;SEP&gt;chunk-d45b3d47cb32a89cb93ed2b60d483431&lt;SEP&gt;chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;CONTROL&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Control represents the ability to govern or manage situations, challenged by an intelligence that writes its own rules."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;INTELLIGENCE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Intelligence refers to an unknown entity capable of learning to communicate and writing its own rules."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;FIRST CONTACT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"First Contact symbolizes the potential initial communication between humanity and an unknown intelligence."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 11}]</data>
+    </node>
+    <node id="&quot;HUMANITY'S RESPONSE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Humanity's Response highlights the collective actions taken in response to a message from an unknown intelligence."</data>
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+    </node>
+    <node id="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Reclaiming Disk Space is a process described in the text to manage storage efficiently."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 12}]</data>
+    </node>
+    <node id="&quot;MERKLE TREE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Merkle Tree is mentioned as a data structure used in hashing transactions in the text."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 12}]</data>
+    </node>
+    <node id="&quot;COINS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Coins are referenced in the text as a unit of value within the cryptocurrency system."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;BLOCKS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Blocks are mentioned in the text as containers for transactions in the cryptocurrency system."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;COMPUTER SYSTEMS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Computer Systems are described with specific RAM capacities in the text for storing block headers."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;MOORE'S LAW&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Moore's Law is introduced as a prediction for the growth rate of computer system storage."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;PROOF-OF-WORK CHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Proof-of-Work Chain is referenced as the basis for verifying blockchain transactions in the text."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;NETWORK NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Network Nodes are mentioned as entities involved in verifying and validating transactions in the network."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;TRANSACTIONS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Transactions are described as the exchange of value within the cryptocurrency ecosystem."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;FULL BLOCK&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A Full Block refers to a complete block containing all transaction details in the blockchain."</data>
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </node>
+    <node id="&quot;ATTACK&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Attack refers to an attempt by an attacker to change a transaction to take back money, indicating a malicious action."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;HONEST CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Honest Chain is characterized as extending by one block in a race with an attacker chain, showing a competitive dynamic."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;ATTACKER CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Attacker Chain competes with the Honest Chain, with events of extending or reducing the gap between them."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;GAMBLER'S RUIN PROBLEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Gambler's Ruin Problem is an analogy to an attacker catching up from a deficit, with probabilities calculated based on honest nodes' and attackers' block finding abilities."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;BINOMIAL RANDOM WALK&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Binomial Random Walk characterizes the race between the Honest Chain and an Attacker Chain in extending blocks, indicating a probabilistic competition."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;SUCCESS EVENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Success Event refers to the Honest Chain being extended by one block, increasing its lead, in the context of the competition with the Attacker Chain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;FAILURE EVENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Failure Event denotes the Attacker Chain being extended by one block, reducing the gap, in the context of the competition with the Honest Chain."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;CHAIN&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Chain represents either the Honest Chain or the Attacker Chain in the race, with events of block extension impacting the outcome of the competition."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </node>
+    <node id="&quot;MERCER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Mercer is described as having instincts that gain precedence in the team's mission, showing active participation in decision-making."&lt;SEP&gt;"Mercer is referred to indirectly in the text, showcasing a shift in instincts and mandate within the context of Operation: Dulce."&lt;SEP&gt;"Mercer's decision-making instincts evolve as the team's objectives shift in Operation: Dulce, showing adaptability in a critical scenario."</data>
+      <data key="d2">chunk-a445e8e84576c92ded4494e656cde0aa&lt;SEP&gt;chunk-f4241a7efe449cb9b97eebb53fd88918&lt;SEP&gt;chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 13}]</data>
+    </node>
+    <node id="&quot;W. DAI&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"W. Dai is the author of b-money, a paper proposing electronic transactions without relying on trust."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;H. MASSIAS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"H. Massias is one of the authors of a paper on a secure timestamping service with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;S. HABER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"S. Haber is one of the authors of a paper on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;W.S. STORNETTA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"W.S. Stornetta is one of the authors of papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;D. BAYER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"D. Bayer is one of the authors of a paper on improving the efficiency and reliability of digital time-stamping."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;X.S. AVILA&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"X.S. Avila is one of the authors of a paper on a secure timestamping service with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;J.-J. QUISQUATER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"J.-J. Quisquater is one of the authors of a paper on a secure timestamping service with minimal trust requirements."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;A. BACK&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A. Back is the author of Hashcash, a paper on a denial of service counter-measure."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;R.C. MERKLE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"R.C. Merkle is the author of a paper on protocols for public key cryptosystems."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;W. FELLER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"W. Feller is the author of 'An Introduction to Probability Theory and Its Applications'."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;IEEE COMPUTER SOCIETY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"IEEE Computer Society is an organization hosting a symposium on security and privacy."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;THE 4TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The 4th ACM Conference on Computer and Communications Security is an event where a paper on secure names for bit-strings was presented."</data>
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </node>
+    <node id="&quot;TEAM&quot;">
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d1">"Washington influences decision-making processes of the team by communicating with them."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;INCENTIVE&quot;">
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d1">"The incentive within block creation encourages nodes to support the network and participate in the validation process."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;NETWORK&quot;">
+      <data key="d2">chunk-263568b622a7925e550b81625e9d364b</data>
+      <data key="d1">"The incentive within block creation encourages nodes to support the network and participate in the validation process."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ORGANIZATION: OPERATION: DULCE&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"The Device is a central technological object in Operation: Dulce, the evolving mission."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SIMPLIFIED PAYMENT VERIFICATION&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Simplified Payment Verification relies on queries to Washington for verifying transactions."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Transactions contain intricated patterns thanks to the Merkle Tree."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 11}]</data>
+    </node>
+    <node id="&quot;PRIVACY&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Privacy and Operation: Dulce are related through the theme of maintaining confidentiality in respective missions."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 13}]</data>
+    </node>
+    <node id="&quot;CALCULATIONS&quot;">
+      <data key="d2">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+      <data key="d1">"Washington is mentioned in the context of the probability calculations."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;B-MONEY&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"W. Dai authored b-money, proposing a trustless system for electronic transactions."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"H. Massias co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;DIGITAL TIMESTAMP&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"S. Haber authored papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EFFICIENT TIME-STAMPING&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"D. Bayer co-authored a paper on improving the efficiency and reliability of digital time-stamping."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;PUBLIC KEY CRYPTOSYSTEMS&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"R.C. Merkle authored a paper on protocols for public key cryptosystems."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;AN INTRODUCTION TO PROBABILITY THEORY AND ITS APPLICATIONS&quot;">
+      <data key="d2">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+      <data key="d1">"W. Feller authored a book introducing probability theory."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;ARK&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ARK is a cryptocurrency system enabling the transfer of tokens between two parties through a Point of Sales Device and chipped card or wearable device."&lt;SEP&gt;"ARK is a platform for blockchain operations with a unique DPoS voting system and fee structure for transactions and delegate registration."&lt;SEP&gt;"ARK is a platform that focuses on consumer adoption and integrates various blockchain technologies to provide valuable services."&lt;SEP&gt;"ARK is a token used for discounted purchases and as a bidding currency for penny auction style systems."&lt;SEP&gt;"ARK is an organization focusing on blockchain technology, particularly through the use of ARK SmartBridges."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918&lt;SEP&gt;chunk-be730f3014663d2d3d624e687fee389c&lt;SEP&gt;chunk-ef8326a3d809112fa5189f15cf619369&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6&lt;SEP&gt;chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;ARK CREW&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ARK Crew is a group involved in managing contests, articles, translations, development, and promotions to earn tokens for various activities."&lt;SEP&gt;"ARK Crew is a team within ARK responsible for developing and implementing various blockchain-related projects."&lt;SEP&gt;"ARK Crew is an organization focused on increasing consumer adoption through technological advancements and practical services."&lt;SEP&gt;"ARK Crew is an organization responsible for managing the ARK Platform and facilitating Blockchain connections and services."&lt;SEP&gt;"ARK Crew is responsible for researching and implementing new blockchain technologies to expand the range of services offered by ARK."&lt;SEP&gt;"ARK Crew is the organization behind the ARK blockchain, focusing on consensus algorithms and the evolution of the system."&lt;SEP&gt;"ARK Crew is the organization mentioned in the text, providing hardware devices and tools for transactions using ARK technology."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b&lt;SEP&gt;chunk-d90c7fddfc3cf9e1021ce161cafb8e0b&lt;SEP&gt;chunk-f4241a7efe449cb9b97eebb53fd88918&lt;SEP&gt;chunk-6a208c8d873647d5d5f543987c04d1f4&lt;SEP&gt;chunk-22ebea9fec40d85511f2f5e8c542f922&lt;SEP&gt;chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;ETHEREUM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Ethereum is another blockchain that the ARK Crew intends to bridge using their technology."&lt;SEP&gt;"Ethereum is mentioned for comparison in terms of block time and inflation rate, reflecting different blockchain features."&lt;SEP&gt;"Ethereum popularized smart contracts on the blockchain, contributing to the evolution of cryptocurrency technology."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b&lt;SEP&gt;chunk-f4241a7efe449cb9b97eebb53fd88918&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;ALTCOINS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Altcoins refer to alternative cryptocurrencies with unique features distinct from Bitcoin."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;CONSUMER&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Consumer adoption is a key focus for ARK, aiming to offer practical services for the average user beyond investment opportunities."&lt;SEP&gt;"Consumer refers to real-world users who benefit from the adoption of cryptocurrency and blockchain technology."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;ARK CORE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ARK Core is a core component of the ARK Platform that includes a mechanism for bridging blockchains."&lt;SEP&gt;"ARK Core is the central platform where new technologies are integrated and implemented to enhance consumer services."&lt;SEP&gt;"The ARK Core is a key component of the ARK platform, dedicated to further development and creating use cases around it."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-22ebea9fec40d85511f2f5e8c542f922&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 7}]</data>
+    </node>
+    <node id="&quot;SMARTBRIDGE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SmartBridge is a feature in the ARK platform that enables communication and interoperability between different blockchains."&lt;SEP&gt;"SmartBridge is a technology used by ARK to connect and utilize various blockchain networks for new features and services."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+    </node>
+    <node id="&quot;WHITEPAPER&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A Whitepaper is a document providing detailed information about a specific topic or project, such as the ARK platform and its features."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+    </node>
+    <node id="&quot;THE ARK FOUNDER TEAM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The ARK Founder Team (AFT) acts on behalf of ARK and is involved in the development and management of the platform."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+    </node>
+    <node id="&quot;INTERPLANETARY FILE SYSTEM (IPFS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"IPFS enables ARK to enter the future of media and hosting, allowing for decentralized media services and alternative revenue streams."&lt;SEP&gt;"IPFS is a decentralized storage system integrated into ARK Core to enhance data distribution and availability."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+    </node>
+    <node id="&quot;INTERPLANETARY DATABASE (IPDB)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"IPDB is a database technology that may be used by ARK to improve data management and accessibility."&lt;SEP&gt;"IPDB will be integrated into the ARK ecosystem for managing personal data, reputation, and privacy, enhancing blockchain social media services."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4&lt;SEP&gt;chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;PRACTICAL BYZANTINE FAULT TOLERANCE (PBFT)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"PBFT is a consensus algorithm that could be integrated into ARK Core for secure and efficient transaction validation."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;TENDERMINT VALIDATORS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Tendermint Validators are entities that secure and validate transactions on the blockchain, potentially part of ARK's network."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;WEB2WEB&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Web2web refers to serverless web technologies like webtorrent that might be adopted by ARK for decentralized web services."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;FAST SECURE CORE TECHNOLOGY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Fast Secure Core Technology is a key focus for ARK, aiming to provide efficient and secure underlying technology for its platform."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;REAL PEOPLE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Real People represent the target audience for ARK, emphasizing the practical services and benefits aimed at everyday users."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;TECHNICAL DETAILS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Technical Details include the specifics of the ARK platform's features and technologies, documented in whitepapers for further understanding."</data>
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;ARK ECOSYSTEM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ARK Ecosystem is a legal entity created for the ARK project, resulting from funds collected under the Token Exchange Campaign."&lt;SEP&gt;"ARK Ecosystem is a network of services and technologies, including IPFS and IPDB, for social media and revenue generation."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 7}]</data>
+    </node>
+    <node id="&quot;AFT (ARK FOUNDER TEAM)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The ARK Founder Team acts on behalf of the ARK Crew and is responsible for the management of funds collected under the Token Exchange Campaign."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 7}]</data>
+    </node>
+    <node id="&quot;ARK TOKEN EXCHANGE CAMPAIGN (ARK-TEC)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The ARK Token Exchange Campaign is an event where funds are collected and used for the ARK project."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 7}]</data>
+    </node>
+    <node id="&quot;CRYPTOCURRENCY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Cryptocurrency is a digital or virtual form of currency that operates independently of central banks and uses cryptography for security."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Blockchain is a decentralized, distributed ledger technology used to record transactions across multiple computers."&lt;SEP&gt;"Blockchain technology is mentioned as the basis for storing digital collectible card game assets on NFC cards."&lt;SEP&gt;"The blockchain is a decentralized ledger technology used for recording transactions securely and transparently."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-ef8326a3d809112fa5189f15cf619369&lt;SEP&gt;chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;LISK&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Lisk is a blockchain platform that allows developers to build applications using JavaScript and sidechains."&lt;SEP&gt;"Lisk is mentioned for comparison in terms of block time and inflation rate, showcasing variations in blockchain design."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;CRYPTI&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Crypti is a decentralized blockchain platform that enables the development of custom applications and tokens."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;DELEGATED PROOF OF STAKE (DPOS)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"DPoS is a consensus algorithm used in blockchain networks, where token holders vote for delegates to validate transactions and create new blocks."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;BITSHARES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"BitShares introduced the consensus system that influenced the design of the ARK blockchain for improved decentralization."&lt;SEP&gt;"Bitshares is a blockchain-based platform that offers decentralized financial services and tools."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2&lt;SEP&gt;chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;FULL STACK DEVELOPER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Full Stack Developer is someone who works on both the front-end and back-end of a website or application."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;WEB DEVELOPER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Web Developer specializes in the development of websites and web applications."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;NETWORK ENGINEER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Network Engineer designs and maintains computer networks for organizations."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;HARDWARE EXPERT&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Hardware Expert has specialized knowledge in computer hardware components and systems."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;MONEY MANAGER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Money Manager is an individual responsible for managing financial assets and investments."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;MUSICIAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Musician is a person who plays or creates music, contributing to the collaborative vision of the ARK ecosystem."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;TRADER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Trader engages in buying and selling financial instruments, potentially involved in cryptocurrency markets."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;SOCIAL MEDIA PROMOTER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Social Media Promoter focuses on promoting products or services on social media platforms."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;BUSINESS OWNER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A Business Owner is an individual who owns and operates a business, contributing to the growth of the ARK ecosystem."</data>
+      <data key="d2">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+    </node>
+    <node id="&quot;SMARTBRIDGES&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SmartBridges are tools developed by ARK Crew to allow communication and task performance among different blockchains."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;ARK ANONYMOUS NETWORK INTEGRATION&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ARK Anonymous Network Integration provides privacy for ARK users when conducting transactions, showcasing a key feature of the ARK platform."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+    </node>
+    <node id="&quot;3RD PARTY TECHNOLOGY INTEGRATION PARTNERSHIP&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The 3rd Party technology integration Partnership potentially provides anonymization services for the ARK platform, enhancing user privacy and security."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+    </node>
+    <node id="&quot;CONSUMERS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Consumers are the target users of the ARK platform, who may benefit from its user-friendly blockchain technology solutions."&lt;SEP&gt;"Consumers at varying income levels interact with the ARK system through cards and hardware with different functionalities."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918&lt;SEP&gt;chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;ARK CRYPTOCURRENCY&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ARK cryptocurrency is utilized for transactions within the ARK platform, adding value and functionality to the ecosystem."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+    </node>
+    <node id="&quot;ADDENDUM&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Addendum sections provide additional information and details related to the main content of the text, serving as supplementary material for readers."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+    </node>
+    <node id="&quot;LISK BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Lisk Blockchain is mentioned as a system that can potentially interact with ARK using DPoS consensus, highlighting interconnectivity between blockchain platforms."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;CRYPTI BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Crypti Blockchain is referenced as a source code provider for ARK, showcasing a collaborative relationship between blockchain systems."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+    </node>
+    <node id="&quot;BITSHARES BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"BitShares Blockchain influences the development of ARK through its unique consensus algorithm, contributing to the technical aspects of the ARK platform."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+    </node>
+    <node id="&quot;DPOS (DELEGATED PROOF OF STAKE)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"DPoS is described as a consensus system used by ARK to improve network efficiency and decentralization, highlighting a key feature of the platform's technical infrastructure."</data>
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 9}]</data>
+    </node>
+    <node id="&quot;ARK BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ARK Blockchain is a decentralized platform that implements Delegated Proof of Stake and other technical features for improved consensus."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;PROOF OF WORK (POW)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Proof of Work is a consensus algorithm criticized for centralization and energy waste, contrasting with ARK's approach."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;DELEGATES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Delegates play a key role in the ARK blockchain, being elected to achieve consensus and ensure decentralization."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;PBFT CONCEPT TESTNET&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The PBFT concept testnet, codenamed TwinChain, is planned for implementation in the ARK network to improve block approval processes."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;RELAY NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Relay nodes in the ARK network provide API functionality for lite clients, enhancing network accessibility and functionality."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;FORGING NODES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Forging nodes in the ARK network reduce the risk of DDoS attacks and are involved in the process of block generation."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;OFFICIAL LITE CLIENT&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"An official lite client for the ARK network will be released to provide desktop and mobile clients for easier network access."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;GRAPHICAL USER INTERFACE (GUI)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The ARK network does not rely on a default GUI, allowing account creation and management offline with various devices."</data>
+      <data key="d2">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+    </node>
+    <node id="&quot;BIP32&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"BIP32 is a specification implemented in ARK for Hierarchical Deterministic Wallets, following Bitcoin's key generation structure."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 10}]</data>
+    </node>
+    <node id="&quot;FORGING DELEGATES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Forging Delegates are nodes within the ARK network eligible to process blocks and receive fees for transactions."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 10}]</data>
+    </node>
+    <node id="&quot;DPOS VOTING SYSTEM&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The DPoS Voting System in ARK was originally envisioned by the Crypti Founders and involves delegate registration and voting with voting weight split evenly."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d3">[{"level": 0, "cluster": 3}, {"level": 1, "cluster": 10}]</data>
+    </node>
+    <node id="&quot;LINUX&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Linux is mentioned as one of the operating systems compatible with the ARK network for clients, indicating its use in the blockchain operations."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;ANDROID&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Android is referenced as a mobile client compatible with the ARK network, highlighting its role in accessing blockchain functionalities."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;IOS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"iOS is mentioned as a mobile client that can interact with the ARK network, showcasing its compatibility with the blockchain platform."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;COMPUTER&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A computer is specified as a device capable of creating and managing ARK accounts offline, showcasing its role in blockchain operations."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;EMBEDDED ARM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Embedded ARM devices are listed as compatible with the ARK network for account management, indicating their integration into the blockchain ecosystem."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;IOT&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"IoT devices are mentioned as having the capability to create and handle ARK accounts, demonstrating their role in the blockchain network."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;CRYPTI FOUNDERS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The Crypti Founders are acknowledged as the original visionaries behind the DPoS voting system incorporated into the ARK platform, highlighting their role in shaping blockchain governance."</data>
+      <data key="d2">chunk-be730f3014663d2d3d624e687fee389c</data>
+    </node>
+    <node id="&quot;ARK PLATFORM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ARK Platform is a peer-to-peer Hypermedia Protocol Platform integrating IPFS for media hosting and services."&lt;SEP&gt;"ARK Platform is a technology platform that provides a mechanism for bridging blockchains and facilitating communications between different blockchain systems."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4&lt;SEP&gt;chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;ENCODED LISTENERS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Encoded Listeners are developed tools that allow for communication triggers across blockchains and facilitate autonomous system responses."</data>
+      <data key="d2">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;ARK SMARTBRIDGES&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ARK SmartBridges are a feature of the ARK Platform that allow for bridging blockchains and facilitating communication between different blockchain systems."</data>
+      <data key="d2">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 7}]</data>
+    </node>
+    <node id="&quot;MICROLOAN BRIDGED BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Microloan Bridged Blockchain is a system created by ARK Crew for connecting lenders and borrowers through blockchain technology."</data>
+      <data key="d2">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;IPDB&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"IPDB is a technology platform used for storing and processing profiles and service ratings in conjunction with blockchain technologies."</data>
+      <data key="d2">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;RAPID DEPLOYMENT ENGINE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Rapid Deployment Engine is a tool provided by ARK Crew to assist in creating Encoded Listeners for blockchain connections."</data>
+      <data key="d2">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;ARK-TEC TOKEN DISTRIBUTION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"ARK-TEC Token Distribution is an event involving the distribution of ARK tokens to various participants and stakeholders."</data>
+      <data key="d2">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;THE TESTNET&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The testnet is a technology available to the public during the token exchange period, with lite client versions for testing."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;POINT OF SALE SYSTEM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Point of Sale System includes physical cards and wearable NFC devices for P2P transfer of ARK tokens."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;VIDEO CONTEST&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Video Contest is an event organized by ARK Crew where winning content becomes their property and may be used for commercial purposes."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;BLOG/MEDIA ARTICLES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Blog/Media Articles are events where authors can earn tokens based on the quality of their articles and the number of shares."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;GITHUB&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"GitHub is a platform used for development and bug bounty programs, offering tokens as rewards."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;ARKSHIELD PROGRAM&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ARKShield Program is a reserve program where remaining tokens from the escrow are added for future use."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;SMARTBRIDGE CORE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SMARTBridge Core is a code developed for blockchain integration and optimization."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;WELCOME TO ARK&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Welcome to ARK event introduces consumers to blockchain technology and highlights its benefits."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;BLOCKCHAIN DATABASE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Blockchain Database refers to IPDB, which manages personal data and metadata securely within the ARK ecosystem."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;P2P CARD AND POS SYSTEM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"P2P Card and POS System facilitate P2P transfer of ARK tokens using physical cards, NFC devices, and modular POS equipment."</data>
+      <data key="d2">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+    </node>
+    <node id="&quot;POINT OF SALES DEVICE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Point of Sales Device is a modular device used for transferring ARK tokens and managing off-chain transactions."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;CARDS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Cards associated with the ARK system have multiple tiers of functionality and can be used for P2P transfers."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;NATIONAL GIFT CARD DISTRIBUTORS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"National Gift Card Distributors partner with ARK to allow the purchase of ARK cryptocurrency using cash via one-time use gift cards."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;ARK BRIDGED BLOCKCHAIN&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The ARK Bridged Blockchain is integrated with a token exchange platform similar to Shapeshift, enabling the redemption of purchased gift cards."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;REVENUE STREAMS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Revenue Streams are considered as potential income sources for ARK Crew, shaping the development of niche services."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d3">[{"level": 0, "cluster": 5}, {"level": 1, "cluster": 13}]</data>
+    </node>
+    <node id="&quot;GAMING SERVICE TOKENS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Gaming Service Tokens are tokens used for rewards within the ARK economy, specifically for the a***** gaming platform."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;A*****&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A***** is a digital gaming platform powered by the blockchain, offering innovative revenue streams and enhancing the gaming experience."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;MODULAR NFC&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Modular NFC technology is used for transferring ARK tokens between parties, enhancing the Point of Sales Device functionality."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;OFF-CHAIN TRANSACTIONS MANAGEMENT TOOLS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Tools for managing off-chain transactions are part of the ARK system, expanding capabilities beyond on-chain transfers."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;CASH&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Cash is used for purchasing ARK cryptocurrency via one-time use gift cards, integrating physical and digital transactions."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;RETAIL CHAINS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Retail Chains partner with ARK to enable the purchase of cryptocurrency through one-time use gift cards, expanding distribution channels."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;THE STOREFRONT&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Storefront is an online bitshop allowing customers to enhance their gaming experience with various modifications and features."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;LIVE GAMING AND PERSONALITY BROADCAST PLATFORM&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Live Gaming and Personality Broadcast Platform offers content creators opportunities to earn ARK or a***** through streaming services."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;COMMUNITY MEMBERS&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Community Members contribute niche content for live streaming on the platform, engaging in interaction and monetization opportunities."</data>
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+    </node>
+    <node id="&quot;MASSDROP&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Massdrop is a platform for group and community sales of high-quality, early release, or original physical products and services."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;GROUPON&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Groupon is a multinational e-commerce platform that connects subscribers with local businesses by offering various activities, travel, goods, and services."&lt;SEP&gt;"Groupon is a platform for discounted purchase of products and services for use with ARK and A**** tokens."&lt;SEP&gt;"Groupon is an e-commerce platform that offers discounts and deals for various products and services."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369&lt;SEP&gt;chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;BEEZID&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Beezid is a platform for bidding on products using A**** tokens and ARK as the token of value."&lt;SEP&gt;"Beezid is an online auction platform known for its unique bidding system and variety of items available for bidding."&lt;SEP&gt;"Beezid is an online penny auction website known for its unique bidding system where the price increases by a small amount with each bid."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369&lt;SEP&gt;chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;COLLECTIBLE CARD GAME ASSETS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Collectible Card Game Assets can be printed into NFC cards for physical collectibility."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;THE ARK CREW&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The ARK Crew is involved in developing ARK-related projects, including card printing and PoS networks."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;A****&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A**** is mentioned in the text as a possible token used for discounted purchases and bidding in auctions."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;NFC CARDS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"NFC Cards are high-quality printed cards used for storing blockchain-based digital collectible card game assets."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;ASSETS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Assets refer to digital collectible card game items stored on blockchain-based NFC cards for physical collectibility."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;BANK ACCOUNT&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Bank Account is highlighted as unnecessary for trade when using ARK for goods and services."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;CREDIT CARD SERVICES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Credit Card Services are mentioned as unnecessary for trading ARK for goods and services directly."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;THE ARK NETWORK&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The ARK Network is a technological stack built with smart cards and wearable NFC devices for transactions."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;PENNY AUCTION STYLE BIDDING&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Penny Auction Style Bidding is described as a method of bidding on products using A**** tokens."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;HOLOGRAPHIC FOIL STAMPING TECHNIQUE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Holographic Foil Stamping Technique is mentioned as an optional feature for printing physical collectible cards."</data>
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+    </node>
+    <node id="&quot;POINT OF SALE (POS) HARDWARE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"POS hardware enables direct person-to-person transfers through technologies like NFC and Contactless Chip without intermediaries, with additional features for advanced models."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 8}]</data>
+    </node>
+    <node id="&quot;POINT OF EXCHANGE (POE) HARDWARE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"POE hardware facilitates exchanges of ARK with local currency or other cryptocurrencies."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;POINT OF CREDIT (POC) HARDWARE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"POC hardware provides microcredit validation and management capabilities."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;ARM-BASED DEVICES LIKE RASPBERRY-PI&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ARM-based devices like Raspberry-Pi can run open source code and support ARK network operations."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 8}]</data>
+    </node>
+    <node id="&quot;TRANSACTION CATEGORIES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Transaction categories include trustworthy or centralized environments, microtransactions, and local currencies."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;NFC&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"NFC technology enables contactless communication for transactions, potentially used in POS hardware for direct transfers."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;CONTACTLESS CHIP&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Contactless Chip technology allows for secure and convenient transactions, likely incorporated in POS hardware for person-to-person transfers."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;SOLAR CELL ARRAY&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Solar cell arrays can provide electricity to hardware devices, reducing the need for external power sources."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;LOCAL THIRD-PARTY BUSINESSES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Local third-party businesses are involved in the management of POS hardware fleet and cards, supporting the adoption and use of ARK technology."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;OFF-CHAIN TOOLS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Off-chain tools facilitate transaction processing outside the blockchain, offering benefits like reduced fees and faster speed."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;FAMILY OR COMPANY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Families or companies may opt to process transactions off the blockchain for cultural reasons, ensuring trusted oversight and legitimacy checks."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;CHAIN OF COMMAND&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Chain of Command refers to the hierarchical structure of authority within an organization, dictating communication and decision-making processes."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;PAYMENT GATEWAY&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Payment Gateway is a technology platform that facilitates online payments for e-commerce transactions, ensuring secure and seamless payment processing."</data>
+      <data key="d2">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+    </node>
+    <node id="&quot;PEER5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Peer5 is a content delivery network that specializes in video streaming and real-time content delivery."&lt;SEP&gt;"Peer5 is a peer-to-peer content delivery network that specializes in video delivery and real-time streaming services."</data>
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;PLASTC&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Plastc was a company that aimed to provide a smart payment card that can store multiple cards in one, but it eventually shut down."&lt;SEP&gt;"Plastc was a company that developed a smart payment card with an E-Ink touchscreen, allowing users to store multiple cards in one device."</data>
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;CHARGER_8.17_EMAIL-1-1024X536&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Charger_8.17_email-1-1024x536 is an event related to a blog post on Plastc's website, potentially showcasing a new product or feature."</data>
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;E-COMMERCE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"E-commerce refers to commercial transactions conducted electronically on the internet, facilitating online shopping and business operations."</data>
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;ONLINE AUCTION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Online Auction is a digital marketplace where users bid on items and services, often with dynamically increasing prices."</data>
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;CONTENT DELIVERY NETWORK&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Content Delivery Network (CDN) is a system of distributed servers that deliver web content to users based on their geographic locations, improving website performance and speed."</data>
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;VIDEO STREAMING&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Video Streaming is the technology of transmitting video content in real-time over the internet, allowing users to watch videos without downloading them first."</data>
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+    </node>
+    <node id="&quot;IPFS&quot;">
+      <data key="d2">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d1">"ARK integrates IPFS into its platform for decentralized storage and improved data distribution capabilities."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}, {"level": 1, "cluster": 6}]</data>
+    </node>
+    <node id="&quot;ARK&quot;&lt;">
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d1">"ARK cryptocurrency serves as a medium of exchange within the ARK ecosystem, providing value and utility to users."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&gt;CRYPTOCURRENCY&quot;">
+      <data key="d2">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d1">"ARK cryptocurrency serves as a medium of exchange within the ARK ecosystem, providing value and utility to users."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CONTENT CREATORS&quot;">
+      <data key="d2">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d1">"Content Creators earn rewards through streaming services on the platform, offering customization options for content creation."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SMART CARDS AND WEARABLE NFC DEVICES&quot;">
+      <data key="d2">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d1">"The ARK Network incorporates smart cards and wearable NFC devices for transactions, demonstrating a technological integration."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;SMART PAYMENT CARD&quot;">
+      <data key="d2">chunk-429b31eaa757cf723eabff69536438ae</data>
+      <data key="d1">"Plastc developed a smart payment card with advanced features like an E-Ink touchscreen for storing multiple cards in one device."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;DIGITAL SIGNATURES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Bitcoin uses digital signatures as a security measure against the Double-Spending Problem."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;PEER-TO-PEER NETWORK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Bitcoin utilizes a Peer-to-Peer Network to timestamp transactions and secure the blockchain."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;SATOSHI NAKAMOTO&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Satoshi Nakamoto is associated with the creation and development of Bitcoin as described in the whitepaper."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;PROOF-OF-WORK&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Bitcoin employs Proof-of-Work as a consensus mechanism to validate transactions and secure the network."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;ARK&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK builds upon the blockchain concept introduced by Bitcoin to provide consumer-focused services beyond speculative trading."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BITCOIN&quot;" target="&quot;ARK CREW&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK Crew plans to bridge Bitcoin with their technology, indicating a specific project focus."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;TEAM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Washington influences decision-making processes of the team by communicating with them."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Washington facilitates the process of managing disk space efficiently for storage."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;SIMPLIFIED PAYMENT VERIFICATION&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Simplified Payment Verification relies on queries to Washington for verifying transactions."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;CALCULATIONS&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Washington is mentioned in the context of the probability calculations."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;THE TEAM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The team's decisions are influenced by communications received from Washington, impacting their approach to the mission."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;DELEGATES&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Washington plays a role in the selection of Delegates for the ARK blockchain to achieve consensus."</data>
+      <data key="d6">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;ARK CREW&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK Crew receives communications from Washington regarding contests, articles, translations, development, and promotions."</data>
+      <data key="d6">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;POINT OF SALES DEVICE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Washington receives communications related to Point of Sales Device functionality, impacting decision-making."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WASHINGTON&quot;" target="&quot;THE ARK CREW&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The ARK Crew develops physical cards with blockchain-based digital assets and operates within a PoS network."</data>
+      <data key="d6">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;BLOCK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Proof-of-Work is utilized to validate new Blocks in the blockchain, requiring miners to solve complex puzzles to secure the network."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;SHA-256&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"SHA-256 is the hashing algorithm used to achieve the required zero bits in the proof-of-work."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;PEER-TO-PEER&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Peer-to-peer is the basis for implementing the distributed timestamp server's proof-of-work system."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK&quot;" target="&quot;CPU&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"CPU effort is required to satisfy the proof-of-work for each block in the network."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;DIGITAL COIN&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Transactions involve the transfer of a Digital Coin, represented as a chain of digital signatures, to the next owner."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;TIMESTAMP SERVER&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Timestamp Server is used to create a timestamp for each Transaction, establishing a chronological record of events and proving the order of transactions."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;BLOCK&quot;">
+      <data key="d4">15.0</data>
+      <data key="d5">"Blocks contain multiple Transactions, chaining them together to form an immutable record in the Bitcoin blockchain."&lt;SEP&gt;"Blocks contain transactions that are validated and added to the blockchain network."</data>
+      <data key="d6">chunk-1cb6cd0eddb936822572ae2a408c2393&lt;SEP&gt;chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;TRANSACTION&quot;" target="&quot;NODES&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Nodes verify and accept transactions only if they are valid and not already spent in the network."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;BLOCK&quot;" target="&quot;NODES&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"Blocks are broadcast by nodes and accepted by other nodes in the network for validation and consensus."&lt;SEP&gt;"Nodes work collectively to add transactions into a block and validate it for acceptance in the network."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;ADAM BACK&quot;" target="&quot;HASHCASH&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Adam Back's work on Hashcash is mentioned in connection to the proof-of-work system for the timestamp server."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;HASHCASH&quot;" target="&quot;A. BACK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"A. Back is the author of Hashcash, a denial of service counter-measure."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;ALEX&quot;" target="&quot;FIRST CONTACT&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Alex is depicted as a leader preparing for first contact with unknown intelligence."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;THE DEVICE&quot;" target="&quot;ORGANIZATION: OPERATION: DULCE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Device is a central technological object in Operation: Dulce, the evolving mission."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;THE TEAM&quot;" target="&quot;OPERATION: DULCE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The team is actively involved in executing the objectives of Operation: Dulce, showcasing their commitment to the mission."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OPERATION: DULCE&quot;" target="&quot;RECLAIMING DISK SPACE&quot;">
+      <data key="d4">15.0</data>
+      <data key="d5">"Operation: Dulce and Reclaiming Disk Space are co-related due to the context of evolving missions and efficient storage."&lt;SEP&gt;"Reclaiming Disk Space is linked to the evolving mission of Operation: Dulce."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;OPERATION: DULCE&quot;" target="&quot;PRIVACY&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Privacy and Operation: Dulce are related through the theme of maintaining confidentiality in respective missions."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;OPERATION: DULCE&quot;" target="&quot;MERCER&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Mercer's instincts align with the evolving objectives of Operation: Dulce, showcasing adaptability and commitment to the mission."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;OPERATION: DULCE&quot;" target="&quot;REVENUE STREAMS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Operation: Dulce's evolution influences the consideration of revenue streams as income sources for ARK Crew."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SAM RIVERA&quot;" target="&quot;INTELLIGENCE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Sam Rivera expresses curiosity and involvement in learning to communicate with unknown intelligence."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;FIRST CONTACT&quot;" target="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"First Contact and Combining and Splitting Value are connected through the process of handling coins and transactions."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;RECLAIMING DISK SPACE&quot;" target="&quot;MERKLE TREE&quot;">
+      <data key="d4">19.0</data>
+      <data key="d5">"Merkle Tree is used in Reclaiming Disk Space to optimize storage."&lt;SEP&gt;"Reclaiming Disk Space involves hashing transactions in a Merkle Tree for efficient storage."&lt;SEP&gt;"The process of Reclaiming Disk Space involves using a Merkle Tree to optimize storage."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;MERKLE TREE&quot;" target="&quot;COMBINING AND SPLITTING VALUE&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Transactions contain intricated patterns thanks to the Merkle Tree."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;COINS&quot;" target="&quot;BLOCKS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Coins are utilized within blocks as units of value in the cryptocurrency system."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;BLOCKS&quot;" target="&quot;COMPUTER SYSTEMS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Blocks are stored in Computer Systems with specific RAM capacities."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;BLOCKS&quot;" target="&quot;TRANSACTIONS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Blocks serve as containers for storing transactions within the blockchain."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;COMPUTER SYSTEMS&quot;" target="&quot;MOORE'S LAW&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Computer Systems demonstrate growth as predicted by Moore's Law."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;PROOF-OF-WORK CHAIN&quot;" target="&quot;NETWORK NODES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Proof-of-Work Chain is utilized by Network Nodes for transaction verification."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;NETWORK NODES&quot;" target="&quot;TRANSACTIONS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Transactions are verified and validated by Network Nodes in the network."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;TRANSACTIONS&quot;" target="&quot;FULL BLOCK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"A Full Block contains all transaction details for comprehensive blockchain records."</data>
+      <data key="d6">chunk-d45b3d47cb32a89cb93ed2b60d483431</data>
+    </edge>
+    <edge source="&quot;HONEST CHAIN&quot;" target="&quot;ATTACKER CHAIN&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Honest Chain and Attacker Chain compete in a race characterized as a Binomial Random Walk."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;HONEST CHAIN&quot;" target="&quot;GAMBLER'S RUIN PROBLEM&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The probabilities in Gambler's Ruin Problem are analogous to those of an attacker catching up with the Honest Chain."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;BINOMIAL RANDOM WALK&quot;" target="&quot;CHAIN&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Binomial Random Walk characterizes the probabilistic competition between the Honest Chain and the Attacker Chain in block extension."</data>
+      <data key="d6">chunk-a445e8e84576c92ded4494e656cde0aa</data>
+    </edge>
+    <edge source="&quot;W. DAI&quot;" target="&quot;B-MONEY&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"W. Dai authored b-money, proposing a trustless system for electronic transactions."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;H. MASSIAS&quot;" target="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"H. Massias co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;S. HABER&quot;" target="&quot;DIGITAL TIMESTAMP&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"S. Haber authored papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;W.S. STORNETTA&quot;" target="&quot;DIGITAL TIMESTAMP&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"W.S. Stornetta co-authored papers on timestamping digital documents and secure names for bit-strings."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;D. BAYER&quot;" target="&quot;EFFICIENT TIME-STAMPING&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"D. Bayer co-authored a paper on improving the efficiency and reliability of digital time-stamping."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;X.S. AVILA&quot;" target="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"X.S. Avila co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;J.-J. QUISQUATER&quot;" target="&quot;SECURE TIMESTAMPING SERVICE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"J.-J. Quisquater co-authored a paper designing a secure timestamping service with minimal trust requirements."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;R.C. MERKLE&quot;" target="&quot;PUBLIC KEY CRYPTOSYSTEMS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"R.C. Merkle authored a paper on protocols for public key cryptosystems."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;W. FELLER&quot;" target="&quot;AN INTRODUCTION TO PROBABILITY THEORY AND ITS APPLICATIONS&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"W. Feller authored a book introducing probability theory."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;IEEE COMPUTER SOCIETY&quot;" target="&quot;THE 4TH ACM CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"IEEE Computer Society hosts the conference where a paper on secure names for bit-strings was presented."</data>
+      <data key="d6">chunk-71e2ae2744c828ad6a3af33b78e30652</data>
+    </edge>
+    <edge source="&quot;INCENTIVE&quot;" target="&quot;NETWORK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The incentive within block creation encourages nodes to support the network and participate in the validation process."</data>
+      <data key="d6">chunk-263568b622a7925e550b81625e9d364b</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;ETHEREUM&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK leverages Ethereum's smart contract capabilities to enhance its service offerings for the average consumer."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;ALTCOINS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK takes inspiration from the unique features of altcoins to expand its range of consumer services beyond traditional cryptocurrencies."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;CONSUMER&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK's primary goal is to increase consumer adoption by offering practical services that cater to real people's needs."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;ARK CREW&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"ARK Crew researches and implements new blockchain technologies within ARK to provide valuable services and enhance consumer adoption."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;IPFS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK integrates IPFS into its platform for decentralized storage and improved data distribution capabilities."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;INTERPLANETARY DATABASE (IPDB)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK considers incorporating IPDB into its services to enhance data management and accessibility for users."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;PRACTICAL BYZANTINE FAULT TOLERANCE (PBFT)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK explores the integration of PBFT to ensure secure and efficient transaction validation within its network."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;TENDERMINT VALIDATORS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK may involve Tendermint Validators in its network to enhance transaction security and validation procedures."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;WEB2WEB&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK considers adopting Web2web technologies like webtorrent for decentralized web services and improved user experiences."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;FAST SECURE CORE TECHNOLOGY&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK emphasizes the development of Fast Secure Core Technology to provide a robust foundation for its platform's operations."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;REAL PEOPLE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK's services are designed with Real People in mind, focusing on practical benefits and usability for everyday consumers."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;TECHNICAL DETAILS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Technical Details play a crucial role in understanding the intricate features and technologies of the ARK platform, outlined in whitepapers for transparency."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;ARK CORE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The ARK Core is dedicated to development and creating use cases, contributing to the overall goal of increasing consumer adoption."</data>
+      <data key="d6">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;SMARTBRIDGES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK develops and utilizes SmartBridges to connect various blockchains and ecosystems."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;LISK BLOCKCHAIN&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK leverages Lisk Blockchain apps and systems through shared codebase, enabling further service bridges and interoperability."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;DPOS (DELEGATED PROOF OF STAKE)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK implements DPoS consensus system, derived from BitShares, to enhance network efficiency and decentralization."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;BIP32&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK provides a custom implementation of BIP32 for Hierarchical Deterministic Wallets, following the same key generation specification as Bitcoin."</data>
+      <data key="d6">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;FORGING DELEGATES&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK's design ensures that the top 51 forging nodes are eligible to process ARK blocks, preventing central control by any single entity."</data>
+      <data key="d6">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;DPOS VOTING SYSTEM&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK incorporates a DPoS Voting System with a fee of 1 Ѧ per delegate vote, ensuring fair distribution of voting weight among wallets."</data>
+      <data key="d6">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;" target="&quot;THE ARK CREW&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The ARK Crew is responsible for overseeing projects related to the ARK token, including printing physical collectible cards and developing PoS networks."</data>
+      <data key="d6">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;IPFS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK Crew evaluates and implements IPFS within ARK's ecosystem to enhance data storage and distribution."</data>
+      <data key="d6">chunk-0f151bdbbe675319da60d654006e2ab6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;ARK ECOSYSTEM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK Crew operates under the name of the ARK Ecosystem, indicating a close relationship between the two entities."</data>
+      <data key="d6">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;AFT (ARK FOUNDER TEAM)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The AFT acts on behalf of the ARK Crew, ensuring proper use of funds and management of the organization."</data>
+      <data key="d6">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;ETHEREUM&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK Crew also intends to bridge Ethereum, expanding the reach of their blockchain solutions."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;PROOF OF WORK (POW)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK Crew aims to overcome the issues associated with Proof of Work through the ARK blockchain's design."</data>
+      <data key="d6">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;DELEGATES&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK Crew relies on Delegates as part of its consensus system to ensure decentralization and optimized consensus."</data>
+      <data key="d6">chunk-4663eb77804235ef7b5e65a0bf2f878b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;ARK PLATFORM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK Crew manages the ARK Platform, which provides a mechanism for bridging blockchains and facilitating communications."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;ENCODED LISTENERS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK Crew provides tools like Encoded Listeners to connect centralized services via the ARK network."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;ARK SMARTBRIDGES&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"ARK Crew utilizes ARK SmartBridges as a feature of the ARK Platform for bridging blockchains and connecting centralized services."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;MICROLOAN BRIDGED BLOCKCHAIN&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK Crew develops and implements the Microloan Bridged Blockchain system for connecting lenders and borrowers using blockchain technology."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;IPDB&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"ARK Crew integrates IPDB for storing and processing profiles and service ratings in conjunction with blockchain technologies."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;RAPID DEPLOYMENT ENGINE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK Crew provides the Rapid Deployment Engine tool to assist in creating Encoded Listeners for blockchain connections."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;ARK-TEC TOKEN DISTRIBUTION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK Crew organizes the ARK-TEC Token Distribution event to allocate ARK tokens to various participants and stakeholders."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;THE TESTNET&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARK Crew is involved in the integration and testing of technologies like IPFS and IPDB as part of their activities."</data>
+      <data key="d6">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;POINT OF SALE SYSTEM&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARK Crew facilitates the transfer of ARK tokens through physical cards and wearable NFC devices for P2P transfer."</data>
+      <data key="d6">chunk-6a208c8d873647d5d5f543987c04d1f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;ARM-BASED DEVICES LIKE RASPBERRY-PI&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ARM-based devices can be used in the management of POS hardware fleet and cards by local businesses, contributing to technological advancements."</data>
+      <data key="d6">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CREW&quot;" target="&quot;LOCAL THIRD-PARTY BUSINESSES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Local third-party businesses collaborate with ARK Crew to advance technology and enable the use of ARK for transactions."</data>
+      <data key="d6">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CORE&quot;" target="&quot;ARK ECOSYSTEM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The ARK Ecosystem's purpose is to further develop the ARK Core and build use cases, highlighting the importance of technological advancements."</data>
+      <data key="d6">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK CORE&quot;" target="&quot;ARK SMARTBRIDGES&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK Core includes a mechanism that incorporates ARK SmartBridges for bridging different blockchains."</data>
+      <data key="d6">chunk-22ebea9fec40d85511f2f5e8c542f922</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK ECOSYSTEM&quot;" target="&quot;AFT (ARK FOUNDER TEAM)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The AFT ensures that funds collected under the Token Exchange Campaign are used exclusively for the creation of the ARK Ecosystem, leading to the formation of a legal entity."</data>
+      <data key="d6">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;AFT (ARK FOUNDER TEAM)&quot;" target="&quot;ARK TOKEN EXCHANGE CAMPAIGN (ARK-TEC)&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"The AFT is responsible for managing the funds collected through the ARK-TEC, ensuring they are used for the ARK project."</data>
+      <data key="d6">chunk-90bfd0c4a85a5430a51f1625f26464d2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BLOCKCHAIN&quot;" target="&quot;NFC CARDS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"NFC Cards store blockchain-based digital assets, showing a relationship between the physical cards and the technology."</data>
+      <data key="d6">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BLOCKCHAIN&quot;" target="&quot;PAYMENT GATEWAY&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Payment Gateway operates on the blockchain to facilitate secure online payments."</data>
+      <data key="d6">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CONSUMERS&quot;" target="&quot;CASH&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Consumers purchase ARK cryptocurrency with cash through one-time use gift cards, integrating physical and digital transactions."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BIP32&quot;" target="&quot;FORGING DELEGATES&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Forging Delegates process transactions based on the BIP32 key generation structure, receiving fees for their services."</data>
+      <data key="d6">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FORGING DELEGATES&quot;" target="&quot;DPOS VOTING SYSTEM&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The DPoS Voting System determines the eligibility of nodes to become Forging Delegates within the ARK network."</data>
+      <data key="d6">chunk-be730f3014663d2d3d624e687fee389c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;POINT OF SALES DEVICE&quot;" target="&quot;MODULAR NFC&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Modular NFC technology enhances the functionality of the Point of Sales Device for transferring ARK tokens."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CARDS&quot;" target="&quot;OFF-CHAIN TRANSACTIONS MANAGEMENT TOOLS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Tools for managing off-chain transactions broaden the functionality of cards within the ARK system."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NATIONAL GIFT CARD DISTRIBUTORS&quot;" target="&quot;ARK BRIDGED BLOCKCHAIN&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"National Gift Card Distributors enable the purchase of ARK cryptocurrency via one-time use gift cards, redeemable through the ARK Bridged Blockchain."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NATIONAL GIFT CARD DISTRIBUTORS&quot;" target="&quot;RETAIL CHAINS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Retail Chains partner with National Gift Card Distributors to distribute ARK cryptocurrency through one-time use gift cards."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GAMING SERVICE TOKENS&quot;" target="&quot;A*****&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Gaming Service Tokens are utilized within the a***** gaming platform, enhancing the user experience and creating revenue streams."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GAMING SERVICE TOKENS&quot;" target="&quot;THE STOREFRONT&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Storefront offers modifications and features for enhancing the gaming experience with gaming service tokens."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;LIVE GAMING AND PERSONALITY BROADCAST PLATFORM&quot;" target="&quot;COMMUNITY MEMBERS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Community Members provide niche content for live streaming on the platform, contributing to engagement and monetization."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;LIVE GAMING AND PERSONALITY BROADCAST PLATFORM&quot;" target="&quot;CONTENT CREATORS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Content Creators earn rewards through streaming services on the platform, offering customization options for content creation."</data>
+      <data key="d6">chunk-20dc0167e3f9db9d39cc424bd7ba291f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GROUPON&quot;" target="&quot;BEEZID&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Groupon and Beezid are both e-commerce platforms, possibly in competition with each other."</data>
+      <data key="d6">chunk-429b31eaa757cf723eabff69536438ae</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GROUPON&quot;" target="&quot;E-COMMERCE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Groupon operates as an e-commerce platform, providing deals and discounts for online shopping and services."</data>
+      <data key="d6">chunk-429b31eaa757cf723eabff69536438ae</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BEEZID&quot;" target="&quot;ONLINE AUCTION&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Beezid specializes in online penny auctions, offering a unique bidding system for users to bid on items."</data>
+      <data key="d6">chunk-429b31eaa757cf723eabff69536438ae</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;THE ARK CREW&quot;" target="&quot;THE ARK NETWORK&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The ARK Crew is part of the technological stack built with smart cards and wearable NFC devices for transactions."</data>
+      <data key="d6">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;A****&quot;" target="&quot;PENNY AUCTION STYLE BIDDING&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"A**** tokens are used in penny auction style bidding for products, indicating a connection between the token and the bidding system."</data>
+      <data key="d6">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;THE ARK NETWORK&quot;" target="&quot;SMART CARDS AND WEARABLE NFC DEVICES&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The ARK Network incorporates smart cards and wearable NFC devices for transactions, demonstrating a technological integration."</data>
+      <data key="d6">chunk-ef8326a3d809112fa5189f15cf619369</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;POINT OF SALE (POS) HARDWARE&quot;" target="&quot;ARM-BASED DEVICES LIKE RASPBERRY-PI&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"POS hardware can run on ARM-based devices like Raspberry-Pi, providing a unified terminal for various transactions."</data>
+      <data key="d6">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NFC&quot;" target="&quot;CONTACTLESS CHIP&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Contactless Chip technology may work in conjunction with NFC for secure and efficient communication in transactions."</data>
+      <data key="d6">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FAMILY OR COMPANY&quot;" target="&quot;CHAIN OF COMMAND&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"The Chain of Command within a family or company influences the decision to process transactions off the blockchain."</data>
+      <data key="d6">chunk-d90c7fddfc3cf9e1021ce161cafb8e0b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PEER5&quot;" target="&quot;PLASTC&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Plastc might have used Peer5's services for content delivery or website optimization."</data>
+      <data key="d6">chunk-429b31eaa757cf723eabff69536438ae</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PEER5&quot;" target="&quot;CONTENT DELIVERY NETWORK&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Peer5 operates as a content delivery network, specializing in video streaming and real-time content delivery services."</data>
+      <data key="d6">chunk-429b31eaa757cf723eabff69536438ae</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PLASTC&quot;" target="&quot;SMART PAYMENT CARD&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Plastc developed a smart payment card with advanced features like an E-Ink touchscreen for storing multiple cards in one device."</data>
+      <data key="d6">chunk-429b31eaa757cf723eabff69536438ae</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ARK&quot;&lt;" target="&gt;CRYPTOCURRENCY&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ARK cryptocurrency serves as a medium of exchange within the ARK ecosystem, providing value and utility to users."</data>
+      <data key="d6">chunk-f4241a7efe449cb9b97eebb53fd88918</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

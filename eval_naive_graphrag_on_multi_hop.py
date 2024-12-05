@@ -1,4 +1,6 @@
 import os
+os.environ["OPENAI_API_BASE"] = "https://api.chatanywhere.tech/v1"
+os.environ["OPENAI_API_KEY"] = "***"
 import json
 import sys
 # sys.path.append("../..")

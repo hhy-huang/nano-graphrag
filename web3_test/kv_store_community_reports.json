@@ -1,0 +1,790 @@
+{
+  "4": {
+    "report_string": "# ARK Ecosystem and Key Entities\n\nThe community revolves around the ARK Ecosystem, a blockchain platform focusing on mass adoption and technological advancements. It includes key entities such as ARK Crew, Delegates, SmartBridges, and Security, among others, each playing a crucial role in the ecosystem.\n\n## ARK Ecosystem as a Tech-Driven Platform\n\nThe ARK Ecosystem is characterized by its emphasis on technology-driven solutions, with features such as DPoS consensus, SmartBridges, and security protocols. These technical advancements highlight the ecosystem's commitment to innovation and efficiency in blockchain technology.\n\n## Key Role of Delegates in Governance\n\nDelegates are crucial entities within the ARK Ecosystem, as they play a significant role in the implementation of the DPoS consensus system. By registering within the network and meeting specific requirements, Delegates contribute to governance and security, making them essential components of the ecosystem.\n\n## Integration of SmartBridges for Interconnectivity\n\nSmartBridges serve as vital tools within the ARK Ecosystem, connecting different blockchains and enabling advanced functions. This emphasis on interconnectivity showcases the ecosystem's commitment to seamless transactions and interoperability, enhancing the overall user experience.\n\n## Focus on Privacy and Security\n\nARK's dedication to privacy and security is evident through features like Anonymous Network Integration and adherence to high standards in cryptographic environments. By prioritizing user protection and data security, ARK maintains a secure core and builds trust among its user base.\n\n## Strategic Partnerships and Collaborations\n\nThe ARK Ecosystem engages in strategic partnerships and collaborations with entities such as ARK Crew, Point Of Sale (POS) hardware, and the ARK Ecosystem Company. These collaborations signify a collective effort towards advancing blockchain technology and expanding the ecosystem's reach.\n\n## Emphasis on Mass Adoption and Technological Advancements\n\nARK's overarching goal of achieving mass adoption of blockchain technology is underscored by its focus on technological advancements and innovative use cases. By integrating key technologies and showcasing advancements in the blockchain space, ARK positions itself as a pioneer in driving industry-wide adoption.",
+    "report_json": {
+      "title": "ARK Ecosystem and Key Entities",
+      "summary": "The community revolves around the ARK Ecosystem, a blockchain platform focusing on mass adoption and technological advancements. It includes key entities such as ARK Crew, Delegates, SmartBridges, and Security, among others, each playing a crucial role in the ecosystem.",
+      "rating": 8.5,
+      "rating_explanation": "The impact severity rating is high due to the extensive network of entities within the ARK Ecosystem and their essential roles in blockchain technology and mass adoption.",
+      "findings": [
+        {
+          "summary": "ARK Ecosystem as a Tech-Driven Platform",
+          "explanation": "The ARK Ecosystem is characterized by its emphasis on technology-driven solutions, with features such as DPoS consensus, SmartBridges, and security protocols. These technical advancements highlight the ecosystem's commitment to innovation and efficiency in blockchain technology."
+        },
+        {
+          "summary": "Key Role of Delegates in Governance",
+          "explanation": "Delegates are crucial entities within the ARK Ecosystem, as they play a significant role in the implementation of the DPoS consensus system. By registering within the network and meeting specific requirements, Delegates contribute to governance and security, making them essential components of the ecosystem."
+        },
+        {
+          "summary": "Integration of SmartBridges for Interconnectivity",
+          "explanation": "SmartBridges serve as vital tools within the ARK Ecosystem, connecting different blockchains and enabling advanced functions. This emphasis on interconnectivity showcases the ecosystem's commitment to seamless transactions and interoperability, enhancing the overall user experience."
+        },
+        {
+          "summary": "Focus on Privacy and Security",
+          "explanation": "ARK's dedication to privacy and security is evident through features like Anonymous Network Integration and adherence to high standards in cryptographic environments. By prioritizing user protection and data security, ARK maintains a secure core and builds trust among its user base."
+        },
+        {
+          "summary": "Strategic Partnerships and Collaborations",
+          "explanation": "The ARK Ecosystem engages in strategic partnerships and collaborations with entities such as ARK Crew, Point Of Sale (POS) hardware, and the ARK Ecosystem Company. These collaborations signify a collective effort towards advancing blockchain technology and expanding the ecosystem's reach."
+        },
+        {
+          "summary": "Emphasis on Mass Adoption and Technological Advancements",
+          "explanation": "ARK's overarching goal of achieving mass adoption of blockchain technology is underscored by its focus on technological advancements and innovative use cases. By integrating key technologies and showcasing advancements in the blockchain space, ARK positions itself as a pioneer in driving industry-wide adoption."
+        }
+      ]
+    },
+    "level": 1,
+    "title": "Cluster 4",
+    "edges": [
+      [
+        "\"ARK CREW\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"SECURITY\""
+      ],
+      [
+        "\"ARK\"",
+        "\"MASSDROP\""
+      ],
+      [
+        "\"ARK\"",
+        "\"TECHNOLOGICAL ADVANCEMENTS\""
+      ],
+      [
+        "\"ARK CORE\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"GROUPON\""
+      ],
+      [
+        "\"ARK\"",
+        "\"POINT OF SALE (POS) HARDWARE\""
+      ],
+      [
+        "\"ARK\"",
+        "\"TEC.ARK.IO\""
+      ],
+      [
+        "\"ARK\"",
+        "\"COMPANY\""
+      ],
+      [
+        "\"ARK\"",
+        "\"BITSHARES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"PBFT BLOCK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"THE ARK NETWORK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"DELEGATES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"BEEZID\""
+      ],
+      [
+        "\"ARK FOUNDER TEAM (AFT)\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"MAJOR CREDIT CARD NETWORKS\""
+      ],
+      [
+        "\"ARK\"",
+        "\"PRIVACY\""
+      ],
+      [
+        "\"ARK\"",
+        "\"SMARTBRIDGES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"MASS ADOPTION\""
+      ]
+    ],
+    "nodes": [
+      "\"PBFT BLOCK\"",
+      "\"MASS ADOPTION\"",
+      "\"PRIVACY\"",
+      "\"GROUPON\"",
+      "\"BITSHARES\"",
+      "\"MAJOR CREDIT CARD NETWORKS\"",
+      "\"MASSDROP\"",
+      "\"THE ARK NETWORK\"",
+      "\"ARK\"",
+      "\"TEC.ARK.IO\"",
+      "\"BEEZID\"",
+      "\"TECHNOLOGICAL ADVANCEMENTS\"",
+      "\"SECURITY\""
+    ],
+    "chunk_ids": [
+      "chunk-4663eb77804235ef7b5e65a0bf2f878b",
+      "chunk-be730f3014663d2d3d624e687fee389c",
+      "chunk-429b31eaa757cf723eabff69536438ae",
+      "chunk-f4241a7efe449cb9b97eebb53fd88918",
+      "chunk-90bfd0c4a85a5430a51f1625f26464d2",
+      "chunk-0f151bdbbe675319da60d654006e2ab6",
+      "chunk-ef8326a3d809112fa5189f15cf619369"
+    ],
+    "occurrence": 0.7777777777777778,
+    "sub_communities": []
+  },
+  "5": {
+    "report_string": "# ARK Founder Team and ARK Ecosystem\n\nThe community revolves around the ARK Founder Team (AFT), which oversees the ARK Ecosystem development. AFT is associated with the creation and incorporation of the 'ARK Ecosystem Company' and the ARK Token Exchange Campaign (ARK-TEC) fundraising initiative.\n\n## Role of ARK Founder Team (AFT)\n\nThe ARK Founder Team (AFT) plays a central role in the community by acting on behalf of ARK Crew and overseeing the use of funds and project development. AFT's involvement in creating the legal entity 'ARK Ecosystem Company' and overseeing the ARK Token Exchange Campaign (ARK-TEC) fundraising initiative highlights its pivotal position in the community's activities and strategic direction.\n\n## Significance of ARK Ecosystem\n\nThe creation of the 'ARK Ecosystem Company' marks a significant milestone in the project's development, indicating a strategic move towards formalizing the project's future direction. The association of ARK with the 'ARK Ecosystem Company' underscores the importance of this entity in the community's structure and development, suggesting a key role in shaping the project's trajectory and goals.\n\n## Strategic Partnerships\n\nThe relationships between the ARK Founder Team (AFT) and both ARK and the 'ARK Ecosystem Company' indicate strategic partnerships and collaborative efforts within the community. AFT's involvement in the creation and incorporation process of the 'ARK Ecosystem Company' signifies a significant project milestone and reflects a coordinated approach towards achieving project objectives and development goals.\n\n## Fundraising Initiatives\n\nThe ARK Token Exchange Campaign (ARK-TEC) serves as a fundraising initiative mentioned in the text to collect funds for project development. AFT's oversight of the funds collected through ARK-TEC to ensure they are used according to project objectives highlights the community's focus on financial transparency, accountability, and the strategic allocation of resources towards achieving project milestones and objectives.",
+    "report_json": {
+      "title": "ARK Founder Team and ARK Ecosystem",
+      "summary": "The community revolves around the ARK Founder Team (AFT), which oversees the ARK Ecosystem development. AFT is associated with the creation and incorporation of the 'ARK Ecosystem Company' and the ARK Token Exchange Campaign (ARK-TEC) fundraising initiative.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the strategic significance of the ARK Founder Team in overseeing the ARK Ecosystem development and fundraising activities.",
+      "findings": [
+        {
+          "summary": "Role of ARK Founder Team (AFT)",
+          "explanation": "The ARK Founder Team (AFT) plays a central role in the community by acting on behalf of ARK Crew and overseeing the use of funds and project development. AFT's involvement in creating the legal entity 'ARK Ecosystem Company' and overseeing the ARK Token Exchange Campaign (ARK-TEC) fundraising initiative highlights its pivotal position in the community's activities and strategic direction."
+        },
+        {
+          "summary": "Significance of ARK Ecosystem",
+          "explanation": "The creation of the 'ARK Ecosystem Company' marks a significant milestone in the project's development, indicating a strategic move towards formalizing the project's future direction. The association of ARK with the 'ARK Ecosystem Company' underscores the importance of this entity in the community's structure and development, suggesting a key role in shaping the project's trajectory and goals."
+        },
+        {
+          "summary": "Strategic Partnerships",
+          "explanation": "The relationships between the ARK Founder Team (AFT) and both ARK and the 'ARK Ecosystem Company' indicate strategic partnerships and collaborative efforts within the community. AFT's involvement in the creation and incorporation process of the 'ARK Ecosystem Company' signifies a significant project milestone and reflects a coordinated approach towards achieving project objectives and development goals."
+        },
+        {
+          "summary": "Fundraising Initiatives",
+          "explanation": "The ARK Token Exchange Campaign (ARK-TEC) serves as a fundraising initiative mentioned in the text to collect funds for project development. AFT's oversight of the funds collected through ARK-TEC to ensure they are used according to project objectives highlights the community's focus on financial transparency, accountability, and the strategic allocation of resources towards achieving project milestones and objectives."
+        }
+      ]
+    },
+    "level": 1,
+    "title": "Cluster 5",
+    "edges": [
+      [
+        "\"ARK FOUNDER TEAM (AFT)\"",
+        "\"ARK TOKEN EXCHANGE CAMPAIGN (ARK-TEC)\""
+      ],
+      [
+        "\"ARK FOUNDER TEAM (AFT)\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"COMPANY\""
+      ],
+      [
+        "\"ARK FOUNDER TEAM (AFT)\"",
+        "\"COMPANY\""
+      ]
+    ],
+    "nodes": [
+      "\"ARK TOKEN EXCHANGE CAMPAIGN (ARK-TEC)\"",
+      "\"ARK FOUNDER TEAM (AFT)\"",
+      "\"COMPANY\""
+    ],
+    "chunk_ids": [
+      "chunk-90bfd0c4a85a5430a51f1625f26464d2"
+    ],
+    "occurrence": 0.1111111111111111,
+    "sub_communities": []
+  },
+  "6": {
+    "report_string": "# ARK Network and SmartBridges\n\nThe community of ARK Network revolves around the use of SmartBridges, which are technologies connecting different blockchains and centralized services. These SmartBridges are tools developed by ARK to enable communication and task performance among validated blockchains. Encoded Listeners, another technology, work in conjunction with SmartBridges to interpret triggers on the ARK network and execute appropriate actions.\n\n## SmartBridges as a key technology\n\nSmartBridges play a pivotal role in this community, serving as the technologies that connect different blockchains and centralized services. These tools facilitate advanced functions and communication among validated blockchains, highlighting their significance in the ecosystem. The development and utilization of SmartBridges by ARK indicate a technology-driven approach in their operations, underlining their crucial role in the community.\n\n## Encoded Listeners in collaboration with SmartBridges\n\nEncoded Listeners complement SmartBridges by providing the ability to interpret triggers on the ARK network and execute corresponding actions. This collaboration showcases the synergistic relationship between these technologies and their combined impact on the ARK Network. The partnership between Encoded Listeners and SmartBridges enhances the efficiency and effectiveness of the network, demonstrating the technological prowess of the community.",
+    "report_json": {
+      "title": "ARK Network and SmartBridges",
+      "summary": "The community of ARK Network revolves around the use of SmartBridges, which are technologies connecting different blockchains and centralized services. These SmartBridges are tools developed by ARK to enable communication and task performance among validated blockchains. Encoded Listeners, another technology, work in conjunction with SmartBridges to interpret triggers on the ARK network and execute appropriate actions.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the critical role of SmartBridges in connecting blockchains and the central role of ARK Network in developing and utilizing these technologies.",
+      "findings": [
+        {
+          "summary": "SmartBridges as a key technology",
+          "explanation": "SmartBridges play a pivotal role in this community, serving as the technologies that connect different blockchains and centralized services. These tools facilitate advanced functions and communication among validated blockchains, highlighting their significance in the ecosystem. The development and utilization of SmartBridges by ARK indicate a technology-driven approach in their operations, underlining their crucial role in the community."
+        },
+        {
+          "summary": "Encoded Listeners in collaboration with SmartBridges",
+          "explanation": "Encoded Listeners complement SmartBridges by providing the ability to interpret triggers on the ARK network and execute corresponding actions. This collaboration showcases the synergistic relationship between these technologies and their combined impact on the ARK Network. The partnership between Encoded Listeners and SmartBridges enhances the efficiency and effectiveness of the network, demonstrating the technological prowess of the community."
+        }
+      ]
+    },
+    "level": 1,
+    "title": "Cluster 6",
+    "edges": [
+      [
+        "\"ENCODED LISTENERS\"",
+        "\"SMARTBRIDGES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"SMARTBRIDGES\""
+      ]
+    ],
+    "nodes": [
+      "\"ENCODED LISTENERS\"",
+      "\"SMARTBRIDGES\""
+    ],
+    "chunk_ids": [
+      "chunk-f4241a7efe449cb9b97eebb53fd88918",
+      "chunk-22ebea9fec40d85511f2f5e8c542f922"
+    ],
+    "occurrence": 0.2222222222222222,
+    "sub_communities": []
+  },
+  "7": {
+    "report_string": "# ARK Blockchain Project and Delegates\n\nThe community revolves around the ARK blockchain project, with Delegates playing a crucial role in the implementation of the DPoS consensus system. Delegates are elected individuals who participate in network decision-making, while Forging Nodes are responsible for block validation and transaction processing.\n\n## Delegates as key actors in the ARK project\n\nDelegates are essential participants in the ARK blockchain project, providing consensus through a voting mechanism. Their role in network governance ensures the decentralization and security of the network. By electing Delegates, participants directly influence the decision-making processes and contribute to the overall integrity of the system.\n\n## Forging Nodes' role in network security\n\nForging Nodes within the ARK network are crucial for maintaining network security and integrity. These nodes are responsible for block validation and transaction processing, ensuring that the network functions smoothly and securely. By creating new blocks and validating transactions, Forging Nodes play a significant role in preventing malicious activities and ensuring the overall health of the blockchain.\n\n## Relationship between Delegates and Forging Nodes\n\nThe relationship between Delegates and Forging Nodes is pivotal in the ARK blockchain project's operations. Delegates are elected based on the number of votes they receive, with the top Delegates becoming Forging Nodes. This system ensures that block creation and validation are decentralized and fair, as Delegates who receive more votes are entrusted with maintaining the network's integrity. The close connection between Delegates and Forging Nodes highlights the importance of community participation in network governance.",
+    "report_json": {
+      "title": "ARK Blockchain Project and Delegates",
+      "summary": "The community revolves around the ARK blockchain project, with Delegates playing a crucial role in the implementation of the DPoS consensus system. Delegates are elected individuals who participate in network decision-making, while Forging Nodes are responsible for block validation and transaction processing.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the critical role of Delegates in network governance and the importance of Forging Nodes in maintaining network security.",
+      "findings": [
+        {
+          "summary": "Delegates as key actors in the ARK project",
+          "explanation": "Delegates are essential participants in the ARK blockchain project, providing consensus through a voting mechanism. Their role in network governance ensures the decentralization and security of the network. By electing Delegates, participants directly influence the decision-making processes and contribute to the overall integrity of the system."
+        },
+        {
+          "summary": "Forging Nodes' role in network security",
+          "explanation": "Forging Nodes within the ARK network are crucial for maintaining network security and integrity. These nodes are responsible for block validation and transaction processing, ensuring that the network functions smoothly and securely. By creating new blocks and validating transactions, Forging Nodes play a significant role in preventing malicious activities and ensuring the overall health of the blockchain."
+        },
+        {
+          "summary": "Relationship between Delegates and Forging Nodes",
+          "explanation": "The relationship between Delegates and Forging Nodes is pivotal in the ARK blockchain project's operations. Delegates are elected based on the number of votes they receive, with the top Delegates becoming Forging Nodes. This system ensures that block creation and validation are decentralized and fair, as Delegates who receive more votes are entrusted with maintaining the network's integrity. The close connection between Delegates and Forging Nodes highlights the importance of community participation in network governance."
+        }
+      ]
+    },
+    "level": 1,
+    "title": "Cluster 7",
+    "edges": [
+      [
+        "\"DELEGATES\"",
+        "\"FORGING NODES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"DELEGATES\""
+      ]
+    ],
+    "nodes": [
+      "\"DELEGATES\"",
+      "\"FORGING NODES\""
+    ],
+    "chunk_ids": [
+      "chunk-4663eb77804235ef7b5e65a0bf2f878b",
+      "chunk-be730f3014663d2d3d624e687fee389c"
+    ],
+    "occurrence": 0.2222222222222222,
+    "sub_communities": []
+  },
+  "0": {
+    "report_string": "# ARK Crew and Blockchain Technology\n\nThe community centers around ARK Crew, an organization dedicated to developing blockchain technology and facilitating communication between blockchains through SmartBridges. The entities associated with ARK Crew include Altcoins, Ethereum, Lisk, and various technologies such as Fast Secure Core Technology and File Hosting. The community aims to enhance consumer adoption through practical services and innovative technology solutions.\n\n## ARK Crew's focus on bridging blockchain platforms\n\nARK Crew plays a crucial role in bridging different blockchains such as Bitcoin, Ethereum, and Lisk, showcasing a comprehensive approach to blockchain integration. By connecting popular platforms, ARK Crew aims to enhance blockchain communication and expand its services to a wider user base. The focus on interoperability and integration suggests a strategic vision for enhancing blockchain technology.\n\n## Technological innovations by ARK Crew\n\nARK Crew demonstrates a commitment to innovation through the development of technologies such as Fast Secure Core Technology, File Hosting, and SmartBridge Core Code. These innovations aim to enhance security, performance, and user experience within the blockchain ecosystem. By offering practical services and new solutions, ARK Crew seeks to drive advancements in blockchain technology and meet the evolving needs of consumers and developers.\n\n## Consumer-centric approach of ARK Crew\n\nARK Crew's emphasis on providing practical services to consumers and real people reflects a consumer-centric approach to blockchain technology. By focusing on user experience, accessibility, and adoption, ARK Crew aims to make blockchain technology more user-friendly and widely accepted. The community's efforts to cater to the needs of consumers suggest a strategic direction towards increasing consumer adoption and mainstream usage of blockchain services.\n\n## Partnerships and future advancements\n\nARK Crew's collaborations with entities such as Altcoins and Ethereum indicate a strategic focus on partnerships and future advancements in blockchain technology. By exploring unique features offered by Altcoins and recognizing Ethereum's contribution to smart contracts, ARK Crew positions itself for potential advancements and innovations in the blockchain industry. The community's strategic alliances and partnerships can lead to enhanced services and technologies for users in the future.\n\n## Testing and optimizing blockchain services\n\nARK Crew's engagement in activities such as blockchain penetration testing, Testnet releases, and bug bounty programs highlights a commitment to testing, debugging, and optimizing blockchain services. Through these initiatives, ARK Crew ensures the security, reliability, and performance of its platform, providing users with a seamless and efficient blockchain experience. The community's focus on continuous improvement and optimization demonstrates a proactive approach to enhancing blockchain services.",
+    "report_json": {
+      "title": "ARK Crew and Blockchain Technology",
+      "summary": "The community centers around ARK Crew, an organization dedicated to developing blockchain technology and facilitating communication between blockchains through SmartBridges. The entities associated with ARK Crew include Altcoins, Ethereum, Lisk, and various technologies such as Fast Secure Core Technology and File Hosting. The community aims to enhance consumer adoption through practical services and innovative technology solutions.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to ARK Crew's significant role in blockchain technology development and its potential influence on consumer adoption.",
+      "findings": [
+        {
+          "summary": "ARK Crew's focus on bridging blockchain platforms",
+          "explanation": "ARK Crew plays a crucial role in bridging different blockchains such as Bitcoin, Ethereum, and Lisk, showcasing a comprehensive approach to blockchain integration. By connecting popular platforms, ARK Crew aims to enhance blockchain communication and expand its services to a wider user base. The focus on interoperability and integration suggests a strategic vision for enhancing blockchain technology."
+        },
+        {
+          "summary": "Technological innovations by ARK Crew",
+          "explanation": "ARK Crew demonstrates a commitment to innovation through the development of technologies such as Fast Secure Core Technology, File Hosting, and SmartBridge Core Code. These innovations aim to enhance security, performance, and user experience within the blockchain ecosystem. By offering practical services and new solutions, ARK Crew seeks to drive advancements in blockchain technology and meet the evolving needs of consumers and developers."
+        },
+        {
+          "summary": "Consumer-centric approach of ARK Crew",
+          "explanation": "ARK Crew's emphasis on providing practical services to consumers and real people reflects a consumer-centric approach to blockchain technology. By focusing on user experience, accessibility, and adoption, ARK Crew aims to make blockchain technology more user-friendly and widely accepted. The community's efforts to cater to the needs of consumers suggest a strategic direction towards increasing consumer adoption and mainstream usage of blockchain services."
+        },
+        {
+          "summary": "Partnerships and future advancements",
+          "explanation": "ARK Crew's collaborations with entities such as Altcoins and Ethereum indicate a strategic focus on partnerships and future advancements in blockchain technology. By exploring unique features offered by Altcoins and recognizing Ethereum's contribution to smart contracts, ARK Crew positions itself for potential advancements and innovations in the blockchain industry. The community's strategic alliances and partnerships can lead to enhanced services and technologies for users in the future."
+        },
+        {
+          "summary": "Testing and optimizing blockchain services",
+          "explanation": "ARK Crew's engagement in activities such as blockchain penetration testing, Testnet releases, and bug bounty programs highlights a commitment to testing, debugging, and optimizing blockchain services. Through these initiatives, ARK Crew ensures the security, reliability, and performance of its platform, providing users with a seamless and efficient blockchain experience. The community's focus on continuous improvement and optimization demonstrates a proactive approach to enhancing blockchain services."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 0",
+    "edges": [
+      [
+        "\"ARK CREW\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"FILE HOSTING\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"LISK\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"REAL PEOPLE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"POINT OF SALE (POS) HARDWARE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"AUDIO AND VIDEO STREAMING\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"GITHUB\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"ARK PLATFORM\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"THIRD PARTY ANONYMOUS NETWORK INTEGRATION\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"FAST SECURE CORE TECHNOLOGY\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"CONSUMER\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"BITCOIN\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"INVESTORS\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"TENDERMINT VALIDATORS\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"INTERPLANETARY FILE SYSTEM (IPFS)\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"ARK SMARTBRIDGE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"LITE CLIENTS (DESKTOP AND MOBILE)\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"DISTRIBUTED APP HOSTING\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"ETHEREUM\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"CODENAME: A***** [TICKER: A***]\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"POINT OF EXCHANGE (POE) HARDWARE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"TESTNET RELEASE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"PRACTICAL BYZANTINE FAULT TOLERANCE (PBFT)\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"BLOG/MEDIA ARTICLES\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"FILE SHARING\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"INTERPLANETARY DATABASE (IPDB)\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"PRACTICAL SERVICES\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"BLOCKCHAIN PENETRATION TESTING\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"SMARTBRIDGE CORE CODE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"POINT OF CREDIT (POC) HARDWARE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"LIVE STREAMING MEDIA\""
+      ],
+      [
+        "\"ALTCOINS\"",
+        "\"ARK CREW\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"WEB2WEB SERVERLESS WEBTORRENT\""
+      ]
+    ],
+    "nodes": [
+      "\"INVESTORS\"",
+      "\"GITHUB\"",
+      "\"DISTRIBUTED APP HOSTING\"",
+      "\"INTERPLANETARY DATABASE (IPDB)\"",
+      "\"LISK\"",
+      "\"PRACTICAL BYZANTINE FAULT TOLERANCE (PBFT)\"",
+      "\"CONSUMER\"",
+      "\"TENDERMINT VALIDATORS\"",
+      "\"LITE CLIENTS (DESKTOP AND MOBILE)\"",
+      "\"FILE SHARING\"",
+      "\"PRACTICAL SERVICES\"",
+      "\"ARK PLATFORM\"",
+      "\"AUDIO AND VIDEO STREAMING\"",
+      "\"CODENAME: A***** [TICKER: A***]\"",
+      "\"ARK CREW\"",
+      "\"ETHEREUM\"",
+      "\"LIVE STREAMING MEDIA\"",
+      "\"WEB2WEB SERVERLESS WEBTORRENT\"",
+      "\"INTERPLANETARY FILE SYSTEM (IPFS)\"",
+      "\"REAL PEOPLE\"",
+      "\"BITCOIN\"",
+      "\"SMARTBRIDGE CORE CODE\"",
+      "\"BLOG/MEDIA ARTICLES\"",
+      "\"THIRD PARTY ANONYMOUS NETWORK INTEGRATION\"",
+      "\"TESTNET RELEASE\"",
+      "\"FAST SECURE CORE TECHNOLOGY\"",
+      "\"ALTCOINS\"",
+      "\"BLOCKCHAIN PENETRATION TESTING\"",
+      "\"FILE HOSTING\""
+    ],
+    "chunk_ids": [
+      "chunk-4663eb77804235ef7b5e65a0bf2f878b",
+      "chunk-6a208c8d873647d5d5f543987c04d1f4",
+      "chunk-22ebea9fec40d85511f2f5e8c542f922",
+      "chunk-be730f3014663d2d3d624e687fee389c",
+      "chunk-f4241a7efe449cb9b97eebb53fd88918",
+      "chunk-90bfd0c4a85a5430a51f1625f26464d2",
+      "chunk-d90c7fddfc3cf9e1021ce161cafb8e0b",
+      "chunk-0f151bdbbe675319da60d654006e2ab6",
+      "chunk-ef8326a3d809112fa5189f15cf619369"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": []
+  },
+  "1": {
+    "report_string": "# ARK Core and SmartBridge Community\n\nThe community is centered around ARK Core, the foundational technology of the ARK platform, which is closely linked with ARK SmartBridge, a technology for connecting with other blockchains and enhancing interoperability. The ARK Crew is involved in integrating ARK SmartBridge into ARK Core to enhance services.\n\n## Significance of ARK Core in the community\n\nARK Core serves as the foundational technology of the ARK platform, providing all services within the ecosystem. It is funded for development through the ARK Token Exchange Campaign, highlighting its crucial role in the community. The focus on ARK Core by key entities such as ARK further emphasizes its importance in the ecosystem.\n\n## Role of ARK SmartBridge in enhancing interoperability\n\nARK SmartBridge is a technology integrated into ARK Core to connect with other blockchains and provide new features, enhancing interoperability within the ecosystem. Its incorporation into ARK Core facilitates communication with external blockchains, extending the platform's capabilities and connectivity. The relationship between ARK Core and ARK SmartBridge underscores the community's commitment to enhancing interoperability and expanding services.\n\n## Involvement of ARK Crew in technology integration\n\nThe ARK Crew plays a key role in integrating ARK SmartBridge into ARK Core to enhance services and connect with other blockchains. This involvement highlights the collaborative efforts within the community to improve technology integration and expand functionalities. The ARK Crew's expertise and contributions contribute to the overall development and advancement of the ecosystem.",
+    "report_json": {
+      "title": "ARK Core and SmartBridge Community",
+      "summary": "The community is centered around ARK Core, the foundational technology of the ARK platform, which is closely linked with ARK SmartBridge, a technology for connecting with other blockchains and enhancing interoperability. The ARK Crew is involved in integrating ARK SmartBridge into ARK Core to enhance services.",
+      "rating": 6.0,
+      "rating_explanation": "The impact severity rating is moderate as the community revolves around key technologies that play a significant role in the ARK platform ecosystem.",
+      "findings": [
+        {
+          "summary": "Significance of ARK Core in the community",
+          "explanation": "ARK Core serves as the foundational technology of the ARK platform, providing all services within the ecosystem. It is funded for development through the ARK Token Exchange Campaign, highlighting its crucial role in the community. The focus on ARK Core by key entities such as ARK further emphasizes its importance in the ecosystem."
+        },
+        {
+          "summary": "Role of ARK SmartBridge in enhancing interoperability",
+          "explanation": "ARK SmartBridge is a technology integrated into ARK Core to connect with other blockchains and provide new features, enhancing interoperability within the ecosystem. Its incorporation into ARK Core facilitates communication with external blockchains, extending the platform's capabilities and connectivity. The relationship between ARK Core and ARK SmartBridge underscores the community's commitment to enhancing interoperability and expanding services."
+        },
+        {
+          "summary": "Involvement of ARK Crew in technology integration",
+          "explanation": "The ARK Crew plays a key role in integrating ARK SmartBridge into ARK Core to enhance services and connect with other blockchains. This involvement highlights the collaborative efforts within the community to improve technology integration and expand functionalities. The ARK Crew's expertise and contributions contribute to the overall development and advancement of the ecosystem."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 1",
+    "edges": [
+      [
+        "\"ARK CREW\"",
+        "\"ARK SMARTBRIDGE\""
+      ],
+      [
+        "\"ARK CORE\"",
+        "\"ARK SMARTBRIDGE\""
+      ],
+      [
+        "\"ARK CORE\"",
+        "\"ARK\""
+      ]
+    ],
+    "nodes": [
+      "\"ARK CORE\"",
+      "\"ARK SMARTBRIDGE\""
+    ],
+    "chunk_ids": [
+      "chunk-0f151bdbbe675319da60d654006e2ab6",
+      "chunk-90bfd0c4a85a5430a51f1625f26464d2"
+    ],
+    "occurrence": 0.2222222222222222,
+    "sub_communities": []
+  },
+  "3": {
+    "report_string": "# ARK Ecosystem\n\nThe ARK Ecosystem community comprises various entities, including ARK, ARK Founder Team, Delegates, and SmartBridges. These entities are interconnected through collaborations, technological advancements, and shared goals, such as mass adoption of blockchain technology.\n\n## ARK's mission and capabilities\n\nARK is a blockchain platform focused on practical services for consumers, utilizing features like DPoS and SmartBridges. Its goal of bridging different blockchains showcases a commitment to technological advancement and ecosystem integration. The platform's unique offerings and emphasis on mass adoption differentiate it within the blockchain space, contributing to its potential impact on the industry.\n\n## Role of ARK Founder Team\n\nThe ARK Founder Team plays a crucial role in overseeing project development and fund utilization, as evidenced by its involvement in creating the ARK Ecosystem Company. By working closely with ARK Crew and managing the ARK Token Exchange Campaign, the team contributes to the community's growth and strategic direction. Their leadership highlights the community's dedication to responsible governance and project sustainability.\n\n## Significance of Delegates\n\nDelegates within the ARK ecosystem serve as elected nodes responsible for forging blocks and governance decisions. Their role in implementing the DPoS consensus system ensures network security and democratic participation. By aligning with the project's objectives and engaging in network governance, Delegates play a vital part in shaping the community's decentralized infrastructure and decision-making processes.\n\n## Impact of SmartBridges technology\n\nSmartBridges technology enables the connection of diverse blockchains and centralized services, indicating ARK's commitment to interoperability and advanced functionality. The integration of SmartBridges showcases a forward-thinking approach to blockchain development, fostering collaboration and innovation across different ecosystems. By leveraging this technology, the ARK community positions itself as a key player in driving blockchain integration and efficiency.\n\n## Emphasis on technological advancements and security\n\nARK's focus on technological advancements, illustrated by concepts like PBFT blocks and security features like Anonymous Network Integration, demonstrates a commitment to enhancing the platform's efficiency and user experience. By addressing privacy concerns and incorporating high security standards, ARK establishes itself as a reliable and innovative blockchain solution. The community's dedication to ongoing technological improvements reflects its long-term vision for industry leadership and user trust.\n\n## Strategic collaborations and industry benchmarks\n\nARK's partnerships with platforms like Groupon and initiatives like Major Credit Card networks underscore its strategic approach to market integration and scalability. By aligning with established industry players and benchmarking against industry standards, ARK positions itself as a competitive and adaptable ecosystem. These collaborations enhance the community's visibility and potential for widespread adoption, contributing to its overall impact on the blockchain landscape.\n\n## Focus on mass adoption and user experience\n\nARK's emphasis on mass adoption and user-friendly features, such as discounted product purchases and wearable NFC devices, showcases a commitment to accessibility and convenience. By prioritizing user experience and market adoption, ARK aims to expand its reach and influence in the blockchain industry. The community's dedication to simplifying blockchain usage and promoting widespread adoption aligns with industry trends and positions it for long-term success and relevance.",
+    "report_json": {
+      "title": "ARK Ecosystem",
+      "summary": "The ARK Ecosystem community comprises various entities, including ARK, ARK Founder Team, Delegates, and SmartBridges. These entities are interconnected through collaborations, technological advancements, and shared goals, such as mass adoption of blockchain technology.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating reflects the community's significance in blockchain technology and its potential influence on mass adoption initiatives.",
+      "findings": [
+        {
+          "summary": "ARK's mission and capabilities",
+          "explanation": "ARK is a blockchain platform focused on practical services for consumers, utilizing features like DPoS and SmartBridges. Its goal of bridging different blockchains showcases a commitment to technological advancement and ecosystem integration. The platform's unique offerings and emphasis on mass adoption differentiate it within the blockchain space, contributing to its potential impact on the industry."
+        },
+        {
+          "summary": "Role of ARK Founder Team",
+          "explanation": "The ARK Founder Team plays a crucial role in overseeing project development and fund utilization, as evidenced by its involvement in creating the ARK Ecosystem Company. By working closely with ARK Crew and managing the ARK Token Exchange Campaign, the team contributes to the community's growth and strategic direction. Their leadership highlights the community's dedication to responsible governance and project sustainability."
+        },
+        {
+          "summary": "Significance of Delegates",
+          "explanation": "Delegates within the ARK ecosystem serve as elected nodes responsible for forging blocks and governance decisions. Their role in implementing the DPoS consensus system ensures network security and democratic participation. By aligning with the project's objectives and engaging in network governance, Delegates play a vital part in shaping the community's decentralized infrastructure and decision-making processes."
+        },
+        {
+          "summary": "Impact of SmartBridges technology",
+          "explanation": "SmartBridges technology enables the connection of diverse blockchains and centralized services, indicating ARK's commitment to interoperability and advanced functionality. The integration of SmartBridges showcases a forward-thinking approach to blockchain development, fostering collaboration and innovation across different ecosystems. By leveraging this technology, the ARK community positions itself as a key player in driving blockchain integration and efficiency."
+        },
+        {
+          "summary": "Emphasis on technological advancements and security",
+          "explanation": "ARK's focus on technological advancements, illustrated by concepts like PBFT blocks and security features like Anonymous Network Integration, demonstrates a commitment to enhancing the platform's efficiency and user experience. By addressing privacy concerns and incorporating high security standards, ARK establishes itself as a reliable and innovative blockchain solution. The community's dedication to ongoing technological improvements reflects its long-term vision for industry leadership and user trust."
+        },
+        {
+          "summary": "Strategic collaborations and industry benchmarks",
+          "explanation": "ARK's partnerships with platforms like Groupon and initiatives like Major Credit Card networks underscore its strategic approach to market integration and scalability. By aligning with established industry players and benchmarking against industry standards, ARK positions itself as a competitive and adaptable ecosystem. These collaborations enhance the community's visibility and potential for widespread adoption, contributing to its overall impact on the blockchain landscape."
+        },
+        {
+          "summary": "Focus on mass adoption and user experience",
+          "explanation": "ARK's emphasis on mass adoption and user-friendly features, such as discounted product purchases and wearable NFC devices, showcases a commitment to accessibility and convenience. By prioritizing user experience and market adoption, ARK aims to expand its reach and influence in the blockchain industry. The community's dedication to simplifying blockchain usage and promoting widespread adoption aligns with industry trends and positions it for long-term success and relevance."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 3",
+    "edges": [
+      [
+        "\"ARK CREW\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"SECURITY\""
+      ],
+      [
+        "\"ARK\"",
+        "\"MASSDROP\""
+      ],
+      [
+        "\"ARK\"",
+        "\"TECHNOLOGICAL ADVANCEMENTS\""
+      ],
+      [
+        "\"ARK CORE\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"GROUPON\""
+      ],
+      [
+        "\"ARK\"",
+        "\"POINT OF SALE (POS) HARDWARE\""
+      ],
+      [
+        "\"ARK\"",
+        "\"TEC.ARK.IO\""
+      ],
+      [
+        "\"ARK\"",
+        "\"COMPANY\""
+      ],
+      [
+        "\"ARK\"",
+        "\"BITSHARES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"PBFT BLOCK\""
+      ],
+      [
+        "\"ARK\"",
+        "\"THE ARK NETWORK\""
+      ],
+      [
+        "\"ARK FOUNDER TEAM (AFT)\"",
+        "\"ARK TOKEN EXCHANGE CAMPAIGN (ARK-TEC)\""
+      ],
+      [
+        "\"ARK\"",
+        "\"DELEGATES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"BEEZID\""
+      ],
+      [
+        "\"DELEGATES\"",
+        "\"FORGING NODES\""
+      ],
+      [
+        "\"ARK FOUNDER TEAM (AFT)\"",
+        "\"ARK\""
+      ],
+      [
+        "\"ENCODED LISTENERS\"",
+        "\"SMARTBRIDGES\""
+      ],
+      [
+        "\"ARK\"",
+        "\"MAJOR CREDIT CARD NETWORKS\""
+      ],
+      [
+        "\"ARK\"",
+        "\"PRIVACY\""
+      ],
+      [
+        "\"ARK\"",
+        "\"SMARTBRIDGES\""
+      ],
+      [
+        "\"ARK FOUNDER TEAM (AFT)\"",
+        "\"COMPANY\""
+      ],
+      [
+        "\"ARK\"",
+        "\"MASS ADOPTION\""
+      ]
+    ],
+    "nodes": [
+      "\"ARK FOUNDER TEAM (AFT)\"",
+      "\"COMPANY\"",
+      "\"DELEGATES\"",
+      "\"MAJOR CREDIT CARD NETWORKS\"",
+      "\"ENCODED LISTENERS\"",
+      "\"PBFT BLOCK\"",
+      "\"MASS ADOPTION\"",
+      "\"GROUPON\"",
+      "\"BITSHARES\"",
+      "\"ARK TOKEN EXCHANGE CAMPAIGN (ARK-TEC)\"",
+      "\"THE ARK NETWORK\"",
+      "\"ARK\"",
+      "\"SMARTBRIDGES\"",
+      "\"FORGING NODES\"",
+      "\"PRIVACY\"",
+      "\"MASSDROP\"",
+      "\"TEC.ARK.IO\"",
+      "\"BEEZID\"",
+      "\"TECHNOLOGICAL ADVANCEMENTS\"",
+      "\"SECURITY\""
+    ],
+    "chunk_ids": [
+      "chunk-4663eb77804235ef7b5e65a0bf2f878b",
+      "chunk-22ebea9fec40d85511f2f5e8c542f922",
+      "chunk-be730f3014663d2d3d624e687fee389c",
+      "chunk-429b31eaa757cf723eabff69536438ae",
+      "chunk-f4241a7efe449cb9b97eebb53fd88918",
+      "chunk-90bfd0c4a85a5430a51f1625f26464d2",
+      "chunk-0f151bdbbe675319da60d654006e2ab6",
+      "chunk-ef8326a3d809112fa5189f15cf619369"
+    ],
+    "occurrence": 0.8888888888888888,
+    "sub_communities": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ]
+  },
+  "2": {
+    "report_string": "# ARK and Hardware Developments\n\nThe community revolves around ARK and its hardware developments, including Point of Sale (POS) hardware, Point of Credit (POC) hardware, and Point of Exchange (POE) hardware. ARK Crew is actively involved in developing and providing these hardware solutions for various financial transactions.\n\n## ARK's role in hardware development\n\nARK is actively involved in using Point of Sale (POS) hardware for direct person-to-person transfers. This indicates the crucial role of ARK in enabling secure and efficient financial transactions through innovative hardware solutions. ARK's partnership with hardware developers signifies its commitment to advancing technology in the financial sector.\n\n## Diversity of hardware solutions\n\nThe community encompasses a diverse range of hardware solutions, including Point of Sale (POS), Point of Credit (POC), and Point of Exchange (POE) hardware. Each type of hardware serves a specific purpose in facilitating different types of financial transactions. This diversity highlights the community's adaptability and innovation in providing comprehensive solutions for various financial needs.\n\n## Interconnectedness of hardware devices\n\nThere is clear interconnectedness among the hardware devices within the community, with relationships indicating the close relationship between Point of Sale (POS) hardware, Point of Credit (POC) hardware, and Point of Exchange (POE) hardware. This interconnectedness suggests a unified ecosystem of hardware solutions working together to enable seamless financial transactions and exchanges.\n\n## ARK Crew's contribution to hardware development\n\nARK Crew plays a significant role in the development and provision of hardware solutions within the community. As the developer of Point of Sale (POS) hardware, Point of Credit (POC) hardware, and Point of Exchange (POE) hardware, ARK Crew is at the forefront of innovation in financial technology. The community heavily relies on ARK Crew for cutting-edge hardware solutions.\n\n## Integration of ARK with hardware solutions\n\nThe integration of ARK with hardware solutions such as Point of Sale (POS) hardware and Point of Exchange (POE) hardware highlights the synergy between cryptocurrency technology and traditional financial transactions. This integration enhances the accessibility and usability of ARK in real-world scenarios, making it a valuable asset within the community.",
+    "report_json": {
+      "title": "ARK and Hardware Developments",
+      "summary": "The community revolves around ARK and its hardware developments, including Point of Sale (POS) hardware, Point of Credit (POC) hardware, and Point of Exchange (POE) hardware. ARK Crew is actively involved in developing and providing these hardware solutions for various financial transactions.",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the crucial role of ARK and its hardware developments in enabling financial transactions and exchanges.",
+      "findings": [
+        {
+          "summary": "ARK's role in hardware development",
+          "explanation": "ARK is actively involved in using Point of Sale (POS) hardware for direct person-to-person transfers. This indicates the crucial role of ARK in enabling secure and efficient financial transactions through innovative hardware solutions. ARK's partnership with hardware developers signifies its commitment to advancing technology in the financial sector."
+        },
+        {
+          "summary": "Diversity of hardware solutions",
+          "explanation": "The community encompasses a diverse range of hardware solutions, including Point of Sale (POS), Point of Credit (POC), and Point of Exchange (POE) hardware. Each type of hardware serves a specific purpose in facilitating different types of financial transactions. This diversity highlights the community's adaptability and innovation in providing comprehensive solutions for various financial needs."
+        },
+        {
+          "summary": "Interconnectedness of hardware devices",
+          "explanation": "There is clear interconnectedness among the hardware devices within the community, with relationships indicating the close relationship between Point of Sale (POS) hardware, Point of Credit (POC) hardware, and Point of Exchange (POE) hardware. This interconnectedness suggests a unified ecosystem of hardware solutions working together to enable seamless financial transactions and exchanges."
+        },
+        {
+          "summary": "ARK Crew's contribution to hardware development",
+          "explanation": "ARK Crew plays a significant role in the development and provision of hardware solutions within the community. As the developer of Point of Sale (POS) hardware, Point of Credit (POC) hardware, and Point of Exchange (POE) hardware, ARK Crew is at the forefront of innovation in financial technology. The community heavily relies on ARK Crew for cutting-edge hardware solutions."
+        },
+        {
+          "summary": "Integration of ARK with hardware solutions",
+          "explanation": "The integration of ARK with hardware solutions such as Point of Sale (POS) hardware and Point of Exchange (POE) hardware highlights the synergy between cryptocurrency technology and traditional financial transactions. This integration enhances the accessibility and usability of ARK in real-world scenarios, making it a valuable asset within the community."
+        }
+      ]
+    },
+    "level": 0,
+    "title": "Cluster 2",
+    "edges": [
+      [
+        "\"POINT OF EXCHANGE (POE) HARDWARE\"",
+        "\"POINT OF SALE (POS) HARDWARE\""
+      ],
+      [
+        "\"POINT OF CREDIT (POC) HARDWARE\"",
+        "\"POINT OF SALE (POS) HARDWARE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"POINT OF CREDIT (POC) HARDWARE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"POINT OF EXCHANGE (POE) HARDWARE\""
+      ],
+      [
+        "\"ARK CREW\"",
+        "\"POINT OF SALE (POS) HARDWARE\""
+      ],
+      [
+        "\"ARK\"",
+        "\"POINT OF SALE (POS) HARDWARE\""
+      ]
+    ],
+    "nodes": [
+      "\"POINT OF SALE (POS) HARDWARE\"",
+      "\"POINT OF CREDIT (POC) HARDWARE\"",
+      "\"POINT OF EXCHANGE (POE) HARDWARE\""
+    ],
+    "chunk_ids": [
+      "chunk-d90c7fddfc3cf9e1021ce161cafb8e0b",
+      "chunk-ef8326a3d809112fa5189f15cf619369"
+    ],
+    "occurrence": 0.2222222222222222,
+    "sub_communities": []
+  }
+}

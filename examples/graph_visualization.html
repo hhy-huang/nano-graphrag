@@ -117,7 +117,7 @@
             .selectAll("circle")
             .data(graphData.nodes)
             .enter().append("circle")
-            .attr("r", 5)
+            .attr("r", 10)
             .attr("fill", d => color(d.entity_type))
             .call(d3.drag()
                 .on("start", dragstarted)

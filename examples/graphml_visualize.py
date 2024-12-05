@@ -277,6 +277,6 @@ def visualize_graphml(graphml_file, html_path, port=8000):
 
 # usage
 if __name__ == "__main__":
-    graphml_file = r"../nano_graphrag_cache_multi_hop_rag_test/graph_chunk_entity_relation.graphml"  # replace with your GraphML file path
+    graphml_file = r"/Users/haoyuhuang/www/cuhk/CMSC5720/nano-graphrag/web3_test/work_dir/graph_chunk_entity_relation.graphml"  # replace with your GraphML file path
     html_path = "./graph_visualization.html"
     visualize_graphml(graphml_file, html_path, 11236)
